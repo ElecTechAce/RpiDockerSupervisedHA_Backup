@@ -1,0 +1,62 @@
+platform: bwalarm
+panel:
+  cameras: []
+enable_night_mode: false
+states:
+  armed_away:
+    immediate: []
+    delayed: []
+    override: []
+    pending_time: 0
+    warning_time: 0
+    trigger_time: 600
+  armed_home:
+    immediate: []
+    delayed: []
+    override: []
+    pending_time: 0
+    warning_time: 0
+    trigger_time: 600
+  armed_night:
+    immediate: []
+    delayed: []
+    override: []
+    pending_time: 0
+    warning_time: 0
+    trigger_time: 600
+users:
+- id: 50f7aebfa41844efb1c881f531d97130
+  name: Home Assistant Cloud
+  enabled: false
+  code: 50f7aebfa41844efb1c881f531d97130
+  picture: ha.png
+- id: 5559db1813e84f2eb81ba4efc18eab2d
+  name: Hass.io
+  enabled: false
+  code: 5559db1813e84f2eb81ba4efc18eab2d
+  picture: ha.png
+- id: 60831650a690426fb1d0232f564c8cb7
+  name: StonesAnchor
+  enabled: false
+  code: 60831650a690426fb1d0232f564c8cb7
+  picture: ha.png
+- id: 116be578263840e49979c1277e08b96c
+  name: Christian
+  enabled: false
+  code: 116be578263840e49979c1277e08b96c
+  picture: ha.png
+- id: 6b1b111af7bb4c718d5d68377449aa40
+  name: Koyah
+  enabled: false
+  code: 6b1b111af7bb4c718d5d68377449aa40
+  picture: ha.png
+- id: b09c0528980345658f5e2ae6dc61be32
+  name: Stone
+  enabled: false
+  code: b09c0528980345658f5e2ae6dc61be32
+  picture: ha.png
+- id: 50263936a50546979fb4d4fd82531c4e
+  name: Kiyah
+  enabled: false
+  code: 50263936a50546979fb4d4fd82531c4e
+  picture: ha.png

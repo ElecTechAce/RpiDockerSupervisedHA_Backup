@@ -1,0 +1,24 @@
+# An * ensures that everything will be ignored.
+# You can whitelist files/folders with !, these will not be ignored.
+# Ignore folders .
+home-assistant.log
+home-assistant_v2.db
+secrets.yaml
+zigbee.db
+known_devices.yaml
+addons
+backup       
+audio.json  
+cli.json     
+dns             
+homeassistant.json  
+services.json   
+tmp
+auth.json   
+config.json  
+dns.json        
+ingress.json        
+share           
+updater.json
+
+!/.gitignore

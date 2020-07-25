@@ -1,0 +1,46 @@
+# tablet:
+#   name: Kiosk Tablet
+#   entities:
+#     - binary_sensor.tablet_motion
+#     - binary_sensor.tablet_camera
+#     - binary_sensor.tablet_screen
+#     - light.tablet_screen
+#     - sensor.floorplan_date
+#     - sensor.floorplan_time
+#     - camera.tablet_camera
+#     - device_tracker.20_d1_60_f8_b1_20
+# garage:
+#   name: Garage
+#   all: false
+#   entities:
+#     - automation.open_garage_when_arrive_home
+#     - binary_sensor.garage_position
+#     - switch.garage_door_opener
+#     - switch.sonoff_1000674c8b
+#     - timer.garage_open
+light:
+  name: All Lights
+  entities:
+  - light.coffeetable_led_strip
+  - light.hallway_light
+  - light.living_room_lamp
+  - light.reading_lamp
+  - light.sengled_e11_g13_3d483803_level_on_off
+  - light.sengled_e11_g13_64fb3703_level_on_off
+  - light.sengled_e11_g13_b2f33703_level_on_off
+  - light.sengled_e11_n1ea_ff330100_level_light_color_on_off
+  - switch.14357010cc50e32f5a87
+  - light.eta_laptop
+media:
+  name: Media Players
+  entities:
+  - media_player.alexa_genie
+  - media_player.browser_mod_2f06293e_dfc13005
+  - media_player.bar_tv
+  - media_player.eta_laptop
+  - media_player.kiyah_tablet
+  - media_player.living_room_tv
+  - media_player.master_tv
+  - media_player.master_echo
+  - media_player.this_device_2
+

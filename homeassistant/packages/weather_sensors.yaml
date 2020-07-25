@@ -1,0 +1,69 @@
+###############################################################################
+#   @author         :   Christian Stone
+#   @date           :   XX/XX/2020
+#   @package        :   Weather Sensors
+#   @description    :   PACKAGE DESCRIPTION
+#   @url            :   
+###############################################################################
+weather:
+   - platform: darksky
+     api_key: !secret dark_key
+     mode: daily
+
+
+#####################################################
+#               Sensors                             #
+#####################################################
+
+####################################################
+#               Geo Location                       #
+####################################################
+geo_location:
+    - platform: nsw_rural_fire_service_feed
+      categories:
+        - 'Emergency Warning'
+        - 'Watch and Act'
+        - 'Advice'
+    - platform: usgs_earthquakes_feed
+      feed_type: 'past_month_all_earthquakes'
+    # - platform: wwlln
+    #   radius: 1000
+    #   window: 60
+    # - platform: geo_json_events
+    #   url: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
+    #   radius: 500
+####################################################
+#               Groups                             #
+####################################################
+# group:
+
+####################################################
+#                  Zones                           #
+####################################################
+zone:
+  - name: Bush Fire Alert Zone
+    latitude: -36.666667
+    longitude: 149.833333
+    radius: 15000
+    passive: true
+
+####################################################
+#                 Automations                      #
+####################################################
+automation:
+  - alias: 'Bush Fire Alert'
+    trigger:
+      platform: geo_location
+      source: nsw_rural_fire_service_feed
+      zone: zone.bush_fire_alert_zone
+      event: enter
+    condition:
+      condition: template
+      value_template: "{{ trigger.to_state.attributes.type == 'Bush Fire' }}"
+    action:
+      - service: persistent_notification.create
+        data_template:
+          message: "{{ trigger.to_state.name }} - {{ trigger.to_state.attributes.status }}"
+          title: "Bush Fire Alert"
+
+

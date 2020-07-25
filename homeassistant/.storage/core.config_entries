@@ -1,0 +1,429 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "f0d2fd19a1b14f7baf6f61c370a21bc7",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "base_path": "/printers/MP490-series",
+                    "host": "192.168.0.8",
+                    "name": "Canon MP490 series @ Electechace",
+                    "port": 631,
+                    "ssl": false,
+                    "uuid": "e913b46d-7948-327c-6d7e-27a4155dda2d",
+                    "verify_ssl": false
+                },
+                "domain": "ipp",
+                "entry_id": "ac7430e4d390498c9ae54ce3b03bc060",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Canon MP490 series @ Electechace",
+                "unique_id": "e913b46d-7948-327c-6d7e-27a4155dda2d",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "udn": "uuid:603197bf-5505-0555-bf97-316031bf050000"
+                },
+                "domain": "upnp",
+                "entry_id": "8c82235d2b8d4dc79c31b6f323c2a95a",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "CenturyLink UPnP v1.0",
+                "unique_id": "uuid:603197bf-5505-0555-bf97-316031bf050000::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "password": "Stone12017",
+                    "username": "Electechace@gmail.com"
+                },
+                "domain": "vesync",
+                "entry_id": "9738bd7114304dc9a9d083b7791292fe",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Electechace@gmail.com",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "device": {
+                        "baudrate": 57600,
+                        "path": "/dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_612017D7-if01-port0"
+                    },
+                    "radio_type": "ezsp"
+                },
+                "domain": "zha",
+                "entry_id": "dd373367b7d44033b3045b4b6cfae206",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "HubZ Smart Home Controller, s/n: 612017D7 - Silicon Labs",
+                "unique_id": null,
+                "version": 2
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "cloudhook": true,
+                    "webhook_id": "54195fb80208f764bc9d809bdd2bac7d945c7777d8f6aa5476dcbe53cfb5e9a9"
+                },
+                "domain": "gpslogger",
+                "entry_id": "06c529e7428c4aca9231167004ae560b",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "GPSLogger Webhook",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "token": "d91cd43ecc4620014005fe94474ccad11e0daae5"
+                },
+                "domain": "hacs",
+                "entry_id": "b83c494963714df388941fbd06f1fe64",
+                "options": {
+                    "not_in_use": ""
+                },
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "cloudhook": true,
+                    "webhook_id": "015c3bb15d7d4887ec81c8ac263f0bab68b06aab58519826b8585294eacc56fb"
+                },
+                "domain": "ifttt",
+                "entry_id": "b843a87b6b4f4b27a77015539be0a279",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "IFTTT Webhook",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country_code": "1",
+                    "password": "Anchor12017",
+                    "platform": "tuya",
+                    "username": "Stonesanchor@gmail.com"
+                },
+                "domain": "tuya",
+                "entry_id": "ddce2c50a82f4bccbab8b1dc731053b3",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Stonesanchor@gmail.com",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "debug": false,
+                    "email": "StonesAnchor@gmail.com",
+                    "exclude_devices": [],
+                    "include_devices": [],
+                    "password": "Anchor12017",
+                    "scan_interval": 60,
+                    "url": "amazon.com"
+                },
+                "domain": "alexa_media",
+                "entry_id": "794db3f9f8f6435cb7d48c6ec2838b03",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "StonesAnchor@gmail.com - amazon.com",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "date": "2012-09-08",
+                    "date_format": "%Y-%m-%d",
+                    "days_as_soon": 1,
+                    "icon_normal": "mdi:calendar-blank",
+                    "icon_soon": "mdi:calendar",
+                    "icon_today": "mdi:calendar-star",
+                    "id_prefix": "anniversary_",
+                    "name": "Anniversay",
+                    "one_time": false,
+                    "show_half_anniversary": false,
+                    "unique_id": "ba680cc4-e41e-4799-b654-ff00bf70c12c",
+                    "unit_of_measurement": "Days"
+                },
+                "domain": "anniversaries",
+                "entry_id": "3717cb193ff2458aa5e5c6f1778330c2",
+                "options": {
+                    "date": "2012-09-08",
+                    "date_format": "%Y-%m-%d",
+                    "days_as_soon": 1,
+                    "icon_normal": "mdi:calendar-blank",
+                    "icon_soon": "mdi:calendar",
+                    "icon_today": "mdi:calendar-star",
+                    "id_prefix": "anniversary_",
+                    "name": "Anniversay",
+                    "one_time": false,
+                    "show_half_anniversary": false,
+                    "unique_id": "ba680cc4-e41e-4799-b654-ff00bf70c12c",
+                    "unit_of_measurement": "Days"
+                },
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Anniversay",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "shopping_list",
+                "entry_id": "2a542bb2df6a4f0cb81bbf376c9e6ad2",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Shopping List",
+                "unique_id": "shopping_list",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "a09b1b563d8b4f8397170d171da88d0c",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "US"
+                },
+                "domain": "coronavirus",
+                "entry_id": "50aaac7c8d6940f1803c17ff851eb0c7",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "US",
+                "unique_id": "US",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "latitude": 36.1862551,
+                    "longitude": -115.2345237,
+                    "minimum_magnitude": 0.0,
+                    "mmi": 3,
+                    "radius": 50,
+                    "scan_interval": 300
+                },
+                "domain": "geonetnz_quakes",
+                "entry_id": "ebc0dac84b414e9c9ea5db9fcaaf578a",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "36.1862551, -115.2345237",
+                "unique_id": "36.1862551, -115.2345237",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "latitude": 36.1862551,
+                    "longitude": -115.2345237,
+                    "radius": 50,
+                    "scan_interval": 300,
+                    "unit_system": "imperial"
+                },
+                "domain": "geonetnz_volcano",
+                "entry_id": "2cbf74d9b06e4361a3892976c55ec9e1",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "36.1862551, -115.2345237",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "e_x8FBOSQLmAqlu50CcPHY:APA91bG1c5oFvchQ6TrJl8kDFaNSRbd1eP-LrYpYgI1vXY39mB7IhnOKM4n1vx05LvAC3WilZXYxb-qHIa2UKpekoWVHq1wD362V8pGA1uD2_oTshPMZvc5GJ8tQNJ4Rob16DGv54CK0",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.11.2-221 (221)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABfGUPUjchT_ydUsnAuvv23_YHU4TU4pHVizl4tHDLHNCpZKt8WBhFoUOh0PzAXfHXhBERWnKxE5cL0mCvd0ymOaJxtGkqqroEYWXworXtwkOvN-2xD-uIiZiWjOyLbwNvNkf2csq_mgznFaKfElt3UtjiYdLkegrU0b8VOZjz2I444iRo=",
+                    "device_id": "2933f75f9ab37736",
+                    "device_name": "SM-G965U",
+                    "manufacturer": "samsung",
+                    "model": "SM-G965U",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "3b33cad0a70c408b8722f01496ca2f1d",
+                    "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+                },
+                "domain": "mobile_app",
+                "entry_id": "34d6b93fbb5b48fba160ad6aea5a93d7",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-G965U",
+                "unique_id": "io.homeassistant.companion.android-2933f75f9ab37736",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "latitude": 36.1862551,
+                    "longitude": -115.2345237
+                },
+                "domain": "flunearyou",
+                "entry_id": "3acea1e57e414ad8b28e167edaf411e2",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "36.1862551, -115.2345237",
+                "unique_id": "36.1862551, -115.2345237",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "collection_days": [
+                        "wed"
+                    ],
+                    "date_format": "%d-%b-%Y",
+                    "first_month": "jan",
+                    "frequency": "weekly",
+                    "holiday_in_week_move": false,
+                    "icon_normal": "mdi:trash-can",
+                    "icon_today": "mdi:delete-restore",
+                    "icon_tomorrow": "mdi:delete-circle",
+                    "last_month": "dec",
+                    "observed": true,
+                    "offset": 0,
+                    "unique_id": "87b91bf6-61e5-4e1c-b40f-0e2d7b7b8bcd",
+                    "verbose_format": "on {date}, in {days} days"
+                },
+                "domain": "garbage_collection",
+                "entry_id": "e72ecc20456746b4a891d08a4b6326b4",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Trash",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {},
+                "domain": "fontawesome",
+                "entry_id": "934c5d39eb134a2ca19c29fe82854fd6",
+                "options": {
+                    "brands": true,
+                    "regular": true,
+                    "solid": true
+                },
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "local_ip",
+                "entry_id": "2e0deb14ce3e40738e8284c0a5034e44",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "local_ip",
+                "unique_id": null,
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

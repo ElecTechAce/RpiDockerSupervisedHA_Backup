@@ -1,0 +1,17 @@
+{
+  "discovery": [
+    {
+      "addon": "core_mosquitto",
+      "service": "mqtt",
+      "config": {
+        "host": "core-mosquitto",
+        "port": 1883,
+        "ssl": false,
+        "protocol": "3.1.1",
+        "username": "homeassistant",
+        "password": "BaithiePhohToh8vohthah8Ohsaex1aghua7loo5ne5aghoh9eiPhou0joow3see"
+      },
+      "uuid": "ab6c3d00e36f43fc8f707c37a301183e"
+    }
+  ]
+}

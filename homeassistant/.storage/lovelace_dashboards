@@ -1,0 +1,61 @@
+{
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:home",
+                "id": "lovelace_home",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Home",
+                "url_path": "lovelace-home"
+            },
+            {
+                "icon": "mdi:lightbulb",
+                "id": "lovelace_lighting",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Lighting",
+                "url_path": "lovelace-lighting"
+            },
+            {
+                "icon": "mdi:alarm",
+                "id": "alarm_clock",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": false,
+                "title": "Alarm Clocker",
+                "url_path": "alarm-clock"
+            },
+            {
+                "icon": "mdi:calendar",
+                "id": "calendar_weather",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Calendar",
+                "url_path": "calendar-weather"
+            },
+            {
+                "id": "test_alarm_clock",
+                "mode": "storage",
+                "require_admin": true,
+                "show_in_sidebar": true,
+                "title": "Test Alarm Clock",
+                "url_path": "test-alarm-clock"
+            },
+            {
+                "icon": "mdi:speaker-multiple",
+                "id": "lovelace_audio",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "Audio",
+                "url_path": "lovelace-audio"
+            }
+        ]
+    },
+    "key": "lovelace_dashboards",
+    "version": 1
+}

@@ -1,0 +1,53 @@
+###############################################################################
+#   @author         :   Christian Stone
+#   @date           :   07/16/2020
+#   @package        :   Calendar
+#   @description    :   Google Calendar Intergration and Calendar Sensors / Entities / Automations
+#   @url            :   
+###############################################################################
+##   Google Calendar intergration entry ##
+google:
+  client_id: !secret google_id
+  client_secret: !secret google_secret
+
+##  Binary Sensors   ##
+binary_sensor:
+  - platform: workday
+    country: US
+## Binary Template Sensors For Calendars
+  - platform: template
+    sensors:
+      christian_work_offset:
+        entity_id: sensor.date_time
+        value_template: '{{ (as_timestamp(states.calendar.work.attributes.start_time) - as_timestamp(now()) ) }}'
+
+  - platform: template
+    sensors:
+      holidays_calendar:
+        friendly_name: 'Holiday'
+        value_template: '{{ states.calendar.holidays_in_united_states.attributes.message }}'
+
+
+#############################################################
+#                         Groups							#
+#############################################################
+# group:
+#   calendar:
+#     name: Calendars
+#     view: yes
+#     entities:
+#       - binary_sensor.movement
+#       - binary_sensor.garage_status
+#       - switch.garage_opener
+#       - switch.sonoff_1000674c8b
+#       - timer.garage_open
+
+
+
+
+
+
+
+#############################################################
+#                      Automations							#
+#############################################################

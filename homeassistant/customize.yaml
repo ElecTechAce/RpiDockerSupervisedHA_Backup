@@ -1,0 +1,32 @@
+light.dc4f228dc3ad_192_168_0_28: {}
+sensor.centurylink_upnp_v1_0_packets_s_sent:
+  hidden: true
+sensor.centurylink_upnp_v1_0_packets_s_received:
+  hidden: true
+sensor.centurylink_upnp_v1_0_packets_sent:
+  hidden: true
+sensor.centurylink_upnp_v1_0_packets_received:
+  hidden: true
+sensor.centurylink_upnp_v1_0_kib_s_sent:
+  hidden: true
+sensor.centurylink_upnp_v1_0_kib_s_received:
+  hidden: true
+sensor.centurylink_upnp_v1_0_b_sent:
+  hidden: true
+sensor.centurylink_upnp_v1_0_b_received:
+  hidden: true
+light.dc4f22f51327_192_168_0_33:
+  friendly_name: Coffee Table Glow
+switch.25048234840d8ebdd089: {}
+person.kiyah:
+  icon: mdi:tablet-dashboard
+person.stone:
+  icon: mdi:tablet-dashboard
+media_player.alexa_genie:
+  icon: mdi:music
+switch.christian_s_talk_to_alexa_do_not_disturb_switch:
+  hidden: true
+media_player.master_echo:
+  icon: mdi:music
+switch.this_device_do_not_disturb_switch_3:
+  hidden: true

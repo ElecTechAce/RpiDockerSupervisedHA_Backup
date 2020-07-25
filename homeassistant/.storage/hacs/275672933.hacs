@@ -1,0 +1,59 @@
+{
+    "data": {
+        "archived": false,
+        "authors": [],
+        "category": "plugin",
+        "config_flow": false,
+        "content_in_root": false,
+        "country": [],
+        "default_branch": "master",
+        "description": "Select List Card displays an input_select entity as a list in lovelace",
+        "domain": "",
+        "domains": [
+            "input_select"
+        ],
+        "downloads": 274,
+        "file_name": "select-list-card.js",
+        "filename": "select-list-card.js",
+        "first_install": false,
+        "fork": false,
+        "full_name": "mattieha/select-list-card",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "275672933",
+        "installed": true,
+        "installed_commit": "6b69913",
+        "installed_version": "v1.2.0",
+        "iot_class": null,
+        "last_commit": "6b69913",
+        "last_updated": "2020-07-20T13:57:49Z",
+        "last_version": "v1.2.0",
+        "manifest_name": null,
+        "new": false,
+        "open_issues": 5,
+        "persistent_directory": null,
+        "published_tags": [
+            "v1.2.0",
+            "v1.1.1",
+            "v1.1.0",
+            "v1.0.0",
+            "v0.2.3"
+        ],
+        "pushed_at": "2020-07-20T13:57:49",
+        "releases": true,
+        "render_readme": true,
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 9,
+        "topics": [
+            "homeassistant",
+            "lovelace",
+            "lovelace-custom-card"
+        ],
+        "zip_release": false
+    },
+    "key": "hacs/275672933.hacs",
+    "version": "6"
+}

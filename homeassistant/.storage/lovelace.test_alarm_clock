@@ -1,0 +1,226 @@
+{
+    "data": {
+        "config": {
+            "cards": [
+                {
+                    "cards": [
+                        {
+                            "alarm_entities": [
+                                {
+                                    "entity_id": "input_boolean.alarm_clock"
+                                },
+                                {
+                                    "entity_id": "media_player.echo"
+                                }
+                            ],
+                            "cards": [
+                                {
+                                    "card": {
+                                        "show_empty": false,
+                                        "title": "Devices requiring your attention",
+                                        "type": "entities"
+                                    },
+                                    "filter": {
+                                        "exclude": [
+                                            {
+                                                "domain": "group"
+                                            },
+                                            {
+                                                "domain": "weather"
+                                            },
+                                            {
+                                                "domain": "calendar"
+                                            },
+                                            {
+                                                "domain": "input_boolean"
+                                            },
+                                            {
+                                                "domain": "binary_sensor"
+                                            }
+                                        ],
+                                        "include": [
+                                            {
+                                                "state": "on"
+                                            },
+                                            {
+                                                "state": "playing"
+                                            }
+                                        ]
+                                    },
+                                    "type": "custom:monster-card",
+                                    "when": {
+                                        "entity": "group.all_devices",
+                                        "state": "on"
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "title": "Quick info",
+                                        "type": "glance"
+                                    },
+                                    "filter": {
+                                        "include": [
+                                            {
+                                                "entity_id": "group.all_devices",
+                                                "options": {
+                                                    "name": "All lights",
+                                                    "tap_action": "toggle"
+                                                }
+                                            },
+                                            {
+                                                "entity_id": "switch.licht_nachtkastje",
+                                                "options": {
+                                                    "name": "Licht nachtkastje",
+                                                    "tap_action": "toggle"
+                                                }
+                                            },
+                                            {
+                                                "entity_id": "binary_sensor.alarm"
+                                            },
+                                            {
+                                                "entity_id": "binary_sensor.motion"
+                                            },
+                                            {
+                                                "entity_id": "binary_sensor.back_door"
+                                            },
+                                            {
+                                                "entity_id": "binary_sensor.front_door"
+                                            },
+                                            {
+                                                "entity_id": "sensor.temperature"
+                                            },
+                                            {
+                                                "entity_id": "sensor.humidity"
+                                            },
+                                            {
+                                                "entity_id": "sensor.illuminance"
+                                            }
+                                        ]
+                                    },
+                                    "type": "custom:monster-card",
+                                    "when": {
+                                        "entity": "group.all_important_devices",
+                                        "state": "off"
+                                    }
+                                }
+                            ],
+                            "holiday": {
+                                "calendars": [
+                                    "calendar.holidays"
+                                ]
+                            },
+                            "scripts": [
+                                {
+                                    "entity": "script.start_lights_bedroom_slowly",
+                                    "when": "-00:30"
+                                },
+                                {
+                                    "entity": "light.reading",
+                                    "service": "light.turn_on",
+                                    "when": "on_dismiss"
+                                }
+                            ],
+                            "type": "custom:alarm-clock-card"
+                        }
+                    ],
+                    "type": "vertical-stack"
+                }
+            ],
+            "panel": true,
+            "title": "Alarm Clock",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.centurylink_upnp_v1_0_b_received",
+                            "max": 15000000000,
+                            "min": 10,
+                            "name": "data sent",
+                            "type": "gauge"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "sensor.centurylink_upnp_v1_0_b_received",
+                                            "max": 100,
+                                            "min": 0,
+                                            "type": "gauge"
+                                        },
+                                        {
+                                            "entity": "sensor.centurylink_upnp_v1_0_b_sent",
+                                            "max": 100,
+                                            "min": 0,
+                                            "type": "gauge"
+                                        },
+                                        {
+                                            "entity": "sensor.centurylink_upnp_v1_0_kib_s_received",
+                                            "max": 100,
+                                            "min": 0,
+                                            "type": "gauge"
+                                        },
+                                        {
+                                            "entity": "sensor.centurylink_upnp_v1_0_kib_s_sent",
+                                            "max": 100,
+                                            "min": 0,
+                                            "type": "gauge"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "entity": "sensor.centurylink_upnp_v1_0_packets_received",
+                                    "max": 100,
+                                    "min": 0,
+                                    "type": "gauge"
+                                },
+                                {
+                                    "entity": "sensor.centurylink_upnp_v1_0_packets_s_received",
+                                    "max": 100,
+                                    "min": 0,
+                                    "type": "gauge"
+                                },
+                                {
+                                    "entity": "sensor.centurylink_upnp_v1_0_packets_s_sent",
+                                    "max": 100,
+                                    "min": 0,
+                                    "type": "gauge"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "path": "alarm",
+                    "title": "ALARM"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.master_echo",
+                                    "type": "custom:browser-player"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entity": "weather.dark_sky",
+                            "name": "Weather",
+                            "number_of_forecasts": "5",
+                            "type": "custom:weather-card"
+                        }
+                    ],
+                    "icon": "mdi:music-circle",
+                    "path": "media-control",
+                    "title": "Media Control"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.test_alarm_clock",
+    "version": 1
+}

@@ -1,0 +1,88 @@
+{
+    "data": {
+        "config": {
+            "title": "StonesAnchor",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.workday_sensor"
+                        },
+                        {
+                            "entity": "person.koyah"
+                        },
+                        {
+                            "entity": "person.kiyah"
+                        },
+                        {
+                            "entity": "person.stone"
+                        },
+                        {
+                            "entity": "sensor.time"
+                        },
+                        {
+                            "entity": "sensor.date"
+                        },
+                        {
+                            "entity": "sensor.date_time"
+                        },
+                        {
+                            "entity": "sensor.time_date"
+                        },
+                        {
+                            "entity": "sensor.anniversary_anniversay"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "script.cancel_timer",
+                                "script.finish_timer",
+                                "script.pause_timer",
+                                "script.start_timer"
+                            ],
+                            "title": "Script",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.dark_sky",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "weather.stonesanchor",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "person.kiyah"
+                                },
+                                {
+                                    "entity": "person.stone"
+                                },
+                                {
+                                    "entity": "person.koyah"
+                                },
+                                {
+                                    "entity": "person.stonesanchor"
+                                }
+                            ],
+                            "show_icon": true,
+                            "show_name": true,
+                            "title": "Who's Home",
+                            "type": "glance"
+                        }
+                    ],
+                    "icon": "mdi:alarm",
+                    "path": "aclock",
+                    "title": "Alarm Clock Disabled"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.alarm_clock",
+    "version": 1
+}

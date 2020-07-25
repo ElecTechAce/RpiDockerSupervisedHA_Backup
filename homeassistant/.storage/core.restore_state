@@ -1,0 +1,551 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Christian",
+                    "gps_accuracy": 16.701000213623047,
+                    "icon": "mdi:worker",
+                    "id": "stonesanchor",
+                    "latitude": 36.1862869,
+                    "longitude": -115.2322894,
+                    "source": "person.stonesanchor",
+                    "user_id": "228bdcc7a3db4e189995c4eebb06db66"
+                },
+                "context": {
+                    "id": "99c41908d91c46c09ea9317b2c1c17df",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.stonesanchor",
+                "last_changed": "2020-07-25T04:16:33.920052+00:00",
+                "last_updated": "2020-07-25T04:16:33.920052+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Koyah",
+                    "id": "koyah",
+                    "source": "person.koyah",
+                    "user_id": "c7cde7f479954c3a94a3ad4a033fd12a"
+                },
+                "context": {
+                    "id": "5ca2fcc53d98408e8eb8e78309598cf8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.koyah",
+                "last_changed": "2020-07-25T04:16:33.920699+00:00",
+                "last_updated": "2020-07-25T04:16:33.920699+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Kiyah",
+                    "icon": "mdi:tablet-dashboard",
+                    "id": "kiyah",
+                    "source": "person.kiyah",
+                    "user_id": "3bff63fc2df840a5b11bd720c0762778"
+                },
+                "context": {
+                    "id": "692e7f24b1e642c9804ba5b90e341508",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.kiyah",
+                "last_changed": "2020-07-25T04:16:33.921251+00:00",
+                "last_updated": "2020-07-25T04:16:33.921251+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Stone",
+                    "icon": "mdi:tablet-dashboard",
+                    "id": "stone",
+                    "source": "person.stone",
+                    "user_id": "b1bd1fbf5fe8447fbdc02b9ce2f4308f"
+                },
+                "context": {
+                    "id": "349308ca26154bedb565aa372121f541",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.stone",
+                "last_changed": "2020-07-25T04:16:33.921785+00:00",
+                "last_updated": "2020-07-25T04:16:33.921785+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {},
+                "context": {
+                    "id": "55af7ad400284c78b3e1804316e0a13b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "variable.alarm_clock",
+                "last_changed": "2020-07-25T04:16:57.300000+00:00",
+                "last_updated": "2020-07-25T04:16:57.300000+00:00",
+                "state": "Alarm Clock"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "Wakeup Duration",
+                    "icon": "mdi:clock-in",
+                    "initial": 30.0,
+                    "max": 60.0,
+                    "min": 0.0,
+                    "mode": "slider",
+                    "step": 5.0
+                },
+                "context": {
+                    "id": "e7e6ed0040a14e899d5ef25d35c036d7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_number.wakeup_duration",
+                "last_changed": "2020-07-25T04:16:58.140329+00:00",
+                "last_updated": "2020-07-25T04:16:58.140329+00:00",
+                "state": "30.0"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "Alarm Time",
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 0,
+                    "minute": 0,
+                    "second": 0,
+                    "timestamp": 0
+                },
+                "context": {
+                    "id": "c0db1847d30d4f2babdc76788030637a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_datetime.alarm_clock_time",
+                "last_changed": "2020-07-25T04:16:58.160896+00:00",
+                "last_updated": "2020-07-25T04:16:58.160896+00:00",
+                "state": "00:00:00"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "Wakeup Time",
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 5,
+                    "minute": 30,
+                    "second": 0,
+                    "timestamp": 19800
+                },
+                "context": {
+                    "id": "700825dc924f433d85712f69a43bd482",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_datetime.wakeup_time",
+                "last_changed": "2020-07-25T04:16:58.161763+00:00",
+                "last_updated": "2020-07-25T04:16:58.161763+00:00",
+                "state": "05:30:00"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Function - Wakeup - Bedroom Light",
+                    "id": "function_wakeup_bedroom_light",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "bc57a786c67f4132b2a79f3b8d8414a6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.function_wakeup_bedroom_light",
+                "last_changed": "2020-07-25T04:17:00.253573+00:00",
+                "last_updated": "2020-07-25T04:17:00.253573+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Bush Fire Alert",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "5addc1ac46f547a9aa4f94a57c49aaf3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.bush_fire_alert",
+                "last_changed": "2020-07-25T04:17:00.255038+00:00",
+                "last_updated": "2020-07-25T04:17:00.255038+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Fast.com Download",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "6bc2f5619694499880ac455532a89abe",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.fast_com_download",
+                "last_changed": "2020-07-25T04:17:00.313631+00:00",
+                "last_updated": "2020-07-25T04:17:00.313631+00:00",
+                "state": "9.8"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "activity": "",
+                    "altitude": 677.0999755859375,
+                    "battery_level": 58.0,
+                    "direction": 0.0,
+                    "friendly_name": "Christian S9",
+                    "gps_accuracy": 16.701000213623047,
+                    "latitude": 36.1862869,
+                    "longitude": -115.2322894,
+                    "provider": "network",
+                    "source_type": "gps",
+                    "speed": 0.0
+                },
+                "context": {
+                    "id": "770ecfb8e2ee4085908b865a96c04b00",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.eta_s9",
+                "last_changed": "2020-07-25T04:17:03.043252+00:00",
+                "last_updated": "2020-07-25T04:17:03.043252+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:17:15.770823+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 678.0,
+                    "course": 0,
+                    "friendly_name": "SM-G965U",
+                    "gps_accuracy": 12,
+                    "latitude": 36.1862481,
+                    "longitude": -115.2322234,
+                    "source_type": "gps",
+                    "speed": 0,
+                    "vertical_accuracy": 3
+                },
+                "context": {
+                    "id": "a01da3227e5e406e870d14ec2b26c1fc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sm_g965u",
+                "last_changed": "2020-07-25T04:17:03.046413+00:00",
+                "last_updated": "2020-07-25T04:17:03.046413+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "brightness": 152,
+                    "friendly_name": "Master Bedroom Lamp",
+                    "off_brightness": null,
+                    "supported_features": 41
+                },
+                "context": {
+                    "id": "b67175e5b0af48318b8ef2f320d118c5",
+                    "parent_id": null,
+                    "user_id": "3b33cad0a70c408b8722f01496ca2f1d"
+                },
+                "entity_id": "light.sengled_e11_g13_3d483803_level_on_off",
+                "last_changed": "2020-07-24T23:22:10.710715+00:00",
+                "last_updated": "2020-07-24T23:22:13.839002+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "device_class": "power",
+                    "friendly_name": "Kids Bedroom Light smart energy",
+                    "unit_of_measurement": "kW"
+                },
+                "context": {
+                    "id": "c8a9fab00ba544a1b467773f98907c97",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.sengled_e11_g13_64fb3703_smartenergy_metering",
+                "last_changed": "2020-07-25T03:58:34.322169+00:00",
+                "last_updated": "2020-07-25T03:58:34.322169+00:00",
+                "state": "0000.0"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kids Bedroom Light",
+                    "off_brightness": null,
+                    "supported_features": 41
+                },
+                "context": {
+                    "id": "1fd62240dae44261b419231bf83f021f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.sengled_e11_g13_64fb3703_level_on_off",
+                "last_changed": "2020-07-25T04:01:13.951738+00:00",
+                "last_updated": "2020-07-25T04:01:13.951738+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "device_class": "power",
+                    "friendly_name": "Game Room Light smart energy",
+                    "unit_of_measurement": "kW"
+                },
+                "context": {
+                    "id": "2c5dd781b68f4ac3b065f168ad6f1930",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.sengled_e11_g13_b2f33703_smartenergy_metering",
+                "last_changed": "2020-07-24T05:18:24.817013+00:00",
+                "last_updated": "2020-07-24T05:18:30.824307+00:00",
+                "state": "unavailable"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Game Room Light",
+                    "supported_features": 41
+                },
+                "context": {
+                    "id": "32d69615d45049fbbca25dac0bc2974d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.sengled_e11_g13_b2f33703_level_on_off",
+                "last_changed": "2020-07-24T05:18:24.817499+00:00",
+                "last_updated": "2020-07-24T05:18:35.688525+00:00",
+                "state": "unavailable"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "device_class": "power",
+                    "friendly_name": "Porch RGB smart energy",
+                    "unit_of_measurement": "kW"
+                },
+                "context": {
+                    "id": "d162f1a5b5d3453295a3408e3aea6a24",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.sengled_e11_n1ea_ff330100_smartenergy_metering",
+                "last_changed": "2020-07-24T05:19:16.921375+00:00",
+                "last_updated": "2020-07-24T05:19:16.921375+00:00",
+                "state": "0000.0"
+            }
+        },
+        {
+            "last_seen": "2020-07-25T04:15:12.279122+00:00",
+            "state": {
+                "attributes": {
+                    "brightness": 254,
+                    "color_temp": 250,
+                    "friendly_name": "Porch Light",
+                    "hs_color": [
+                        0,
+                        0
+                    ],
+                    "max_mireds": 500,
+                    "min_mireds": 154,
+                    "off_brightness": null,
+                    "rgb_color": [
+                        255,
+                        255,
+                        255
+                    ],
+                    "supported_features": 59,
+                    "xy_color": [
+                        0.323,
+                        0.329
+                    ]
+                },
+                "context": {
+                    "id": "86760baa40a14cb0b6f60cce0b78a676",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.sengled_e11_n1ea_ff330100_level_light_color_on_off",
+                "last_changed": "2020-07-24T05:19:15.040226+00:00",
+                "last_updated": "2020-07-24T05:19:15.040226+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-23T06:27:12.220680+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle living area binary sensor",
+                    "last_triggered": "2020-07-23T06:27:12.018849+00:00"
+                },
+                "context": {
+                    "id": "4ba1d6d4ed98453796ba8e0841e43dc5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_living_area_binary_sensor",
+                "last_changed": "2020-07-23T06:18:14.642874+00:00",
+                "last_updated": "2020-07-23T06:27:12.019144+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-23T06:27:12.220680+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle main bedroom binary sensor",
+                    "last_triggered": "2020-07-23T06:27:12.022656+00:00"
+                },
+                "context": {
+                    "id": "539ba37968004b70a2496bec2419b9a7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_main_bedroom_binary_sensor",
+                "last_changed": "2020-07-23T06:18:14.643776+00:00",
+                "last_updated": "2020-07-23T06:27:12.022922+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-23T06:27:12.220680+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle double garage binary sensor",
+                    "last_triggered": "2020-07-23T06:27:12.026024+00:00"
+                },
+                "context": {
+                    "id": "8ca102ebe1764c71815c387bed655c13",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_double_garage_binary_sensor",
+                "last_changed": "2020-07-23T06:18:14.644650+00:00",
+                "last_updated": "2020-07-23T06:27:12.026264+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-07-23T06:27:12.220680+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "Double Garage",
+                    "supported_features": 0
+                },
+                "context": {
+                    "id": "bbbf18ebfd914cbab5fd2e13645f1304",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "light.double_garage",
+                "last_changed": "2020-07-23T06:18:21.254794+00:00",
+                "last_updated": "2020-07-23T06:18:21.254794+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-23T06:27:12.220680+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "Living Area Fan"
+                },
+                "context": {
+                    "id": "32973410be024c11b2cc0dc485b88e00",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.living_area_fan",
+                "last_changed": "2020-07-23T06:18:21.256131+00:00",
+                "last_updated": "2020-07-23T06:18:21.256131+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2020-07-22T08:15:38.183610+00:00",
+            "state": {
+                "attributes": {
+                    "duration": "0:10:00",
+                    "editable": false,
+                    "remaining": "0:10:00"
+                },
+                "context": {
+                    "id": "ac762258623d4fa690c724cca4e20180",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "timer.garage_open",
+                "last_changed": "2020-07-22T08:02:08.791656+00:00",
+                "last_updated": "2020-07-22T08:02:08.791656+00:00",
+                "state": "idle"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

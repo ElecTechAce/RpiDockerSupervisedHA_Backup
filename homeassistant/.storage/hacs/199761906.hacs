@@ -1,0 +1,55 @@
+{
+    "data": {
+        "archived": false,
+        "authors": [
+            "@adminiuga"
+        ],
+        "category": "integration",
+        "config_flow": false,
+        "content_in_root": false,
+        "country": [],
+        "default_branch": "dev",
+        "description": "Build ZHA network topology map.",
+        "domain": "zha_map",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "zha-ng/zha-map",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "199761906",
+        "installed": true,
+        "installed_commit": "da646da",
+        "installed_version": "0.1.1",
+        "iot_class": null,
+        "last_commit": "da646da",
+        "last_updated": "2020-06-11T21:30:48Z",
+        "last_version": "0.1.1",
+        "manifest_name": "ZHA Network Map",
+        "new": false,
+        "open_issues": 2,
+        "persistent_directory": null,
+        "published_tags": [
+            "0.1.1",
+            "0.1.0"
+        ],
+        "pushed_at": "2020-06-11T21:30:48",
+        "releases": true,
+        "render_readme": false,
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 32,
+        "topics": [
+            "zha",
+            "zha-map"
+        ],
+        "zip_release": false
+    },
+    "key": "hacs/199761906.hacs",
+    "version": "6"
+}

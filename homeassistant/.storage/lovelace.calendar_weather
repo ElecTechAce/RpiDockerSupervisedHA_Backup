@@ -1,0 +1,108 @@
+{
+    "data": {
+        "config": {
+            "title": "Calen",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "weather.dark_sky",
+                            "number_of_forecasts": "5",
+                            "type": "custom:weather-card"
+                        },
+                        {
+                            "aspect_ratio": "2",
+                            "default_zoom": 8,
+                            "geo_location_sources": [
+                                "usgs_earthquakes_feed"
+                            ],
+                            "title": "Earthquake Warnings",
+                            "type": "map"
+                        },
+                        {
+                            "aspect_ratio": "50%",
+                            "type": "iframe",
+                            "url": "https://embed.windy.com/embed2.html?lat=36.214&lon=-115.282&zoom=9&level=surface&overlay=temp&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=36.214&detailLon=-115.282&metricWind=default&metricTemp=default&radarRange=-1"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "person.kiyah"
+                                },
+                                {
+                                    "entity": "person.stone"
+                                },
+                                {
+                                    "entity": "person.koyah"
+                                },
+                                {
+                                    "entity": "person.stonesanchor"
+                                }
+                            ],
+                            "show_icon": true,
+                            "show_name": true,
+                            "title": "Who's Home",
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                "calendar.",
+                                "sensor.wakeup_time",
+                                "sensor.wakeup_alarm_start_time"
+                            ],
+                            "type": "custom:atomic-calendar-revive"
+                        }
+                    ],
+                    "icon": "mdi:temperature-fahrenheit",
+                    "path": "weather-warning",
+                    "title": "Weather"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "calEventIcon1Filter": "birthday",
+                            "calEventIcon2Filter": "waste,bills",
+                            "defaultMode": 2,
+                            "enableModeChange": true,
+                            "entities": [
+                                {
+                                    "entity": "calendar.my_calendar",
+                                    "type": "icon2"
+                                },
+                                {
+                                    "entity": "calendar.my_calendar",
+                                    "type": "icon1,icon2"
+                                },
+                                {
+                                    "entity": "calendar.holidays_in_united_states",
+                                    "type": "holiday"
+                                }
+                            ],
+                            "name": "Christian's Calendar",
+                            "showDate": true,
+                            "showDeclined": false,
+                            "showMonth": true,
+                            "showWeekDay": false,
+                            "type": "custom:atomic-calendar-revive"
+                        },
+                        {
+                            "entities": [
+                                "calendar.holidays_in_united_states",
+                                "calendar.my_calendar"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Calendar",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "atomic-cal",
+                    "title": "Atomic Cal"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.calendar_weather",
+    "version": 1
+}

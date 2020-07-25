@@ -1,0 +1,35 @@
+{
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:map-marker",
+                "id": "fisk",
+                "latitude": 36.07875115695909,
+                "longitude": -115.19297003746034,
+                "name": "Fisk",
+                "passive": false,
+                "radius": 100.0
+            },
+            {
+                "icon": "mdi:map-marker",
+                "id": "pual_e_culley_elementary",
+                "latitude": 36.18280517886204,
+                "longitude": -115.2166646718979,
+                "name": "Pual E Culley Elementary",
+                "passive": false,
+                "radius": 100.0
+            },
+            {
+                "icon": "mdi:map-marker",
+                "id": "parents",
+                "latitude": 36.13081496919188,
+                "longitude": -115.09667609975749,
+                "name": "Parents",
+                "passive": false,
+                "radius": 100.0
+            }
+        ]
+    },
+    "key": "zone",
+    "version": 1
+}

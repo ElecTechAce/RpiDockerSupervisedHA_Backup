@@ -1,0 +1,53 @@
+#input_select:
+#  destination:
+#    name: destination
+#    options:
+#      - Home
+#      - Work
+#      - Parents
+
+#sensor:
+#  - platform: template
+#    sensors:
+#       dest_address:
+#         value_template: >-
+#            {%- if is_state("input_select.destination", "Home")  -%}
+#              !secret Home_ass
+#            {%- elif is_state("input_select.destination", "Work")  -%}
+#              !secret Work_add
+#            {%- elif is_state("input_select.destination", "Parents")  -%}
+#              !secret Parents_add
+#            {%- else -%}
+#              Unknown
+#            {%- endif %}
+
+#  # Tracking entity to entity
+#  - platform: waze_travel_time
+#    name: "Me to destination"
+#    origin: device_tracker.christian
+#    destination: sensor.dest_address
+#    region: 'US'
+
+#  # Tracking entity to zone friendly name
+#  - platform: waze_travel_time
+#    name: Home To Parents House
+#    origin: zone.home
+#    destination: Eddies House    # Friendly name of a zone
+#    region: 'US'
+
+#  # Tracking entity in imperial unit
+#  - platform: waze_travel_time
+#    origin: person.paulus
+#    destination: "725 5th Ave, New York, NY 10022, USA"
+#    region: 'US'
+#    units: imperial    # 'metric' for Metric, 'imperial' for Imperial
+#    vehicle_type: motorcycle  # vehicle type used for routing
+
+#  # Avoiding toll, subscription
+#  - platform: waze_travel_time
+#    name: Westerscheldetunnel
+#    origin: 51.330436, 3.802043
+#    destination: 51.445677, 3.749929
+#    region: 'EU'
+#    avoid_toll_roads: true
+#    avoid_subscription_roads: true

@@ -1,0 +1,230 @@
+{
+    "data": {
+        "config": {
+            "resources": {
+                "type": "module",
+                "url": "/local/dummy-entity-row.js"
+            },
+            "title": "Lighting",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "customTheme": false,
+                                    "entity": "light.coffeetable_led_strip",
+                                    "name": "Coffee Table",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "switch.14357010cc50e32f5a87",
+                                    "name": "Garage",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.hallway_light",
+                                    "name": "Hallway",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.living_room_lamp",
+                                    "name": "Living Room Lamp",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.reading_lamp",
+                                    "name": "Reading Lamp",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.sengled_e11_g13_3d483803_level_on_off",
+                                    "name": "Master Bedroom Lamp",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.sengled_e11_g13_64fb3703_level_on_off",
+                                    "name": "Game Room",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.sengled_e11_g13_b2f33703_level_on_off",
+                                    "name": "Kids Bedroom",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.sengled_e11_n1ea_ff330100_level_light_color_on_off",
+                                    "name": "Entry",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.living_room_lamp",
+                                    "name": "Patio",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.living_room_lamp",
+                                    "name": "Kitchen",
+                                    "type": "custom:light-brightness-preset-row"
+                                },
+                                {
+                                    "ButtonInactiveColor": "#aaaaaa",
+                                    "HiBrightness": 225,
+                                    "IsOffColor": "orange",
+                                    "IsOnHiColor": "#222222",
+                                    "IsOnLowColor": "rgb(255, 0, 0)",
+                                    "IsOnMedColor": "#888888",
+                                    "LowBrightness": 30,
+                                    "MedBrightness": 100,
+                                    "customSetpoints": true,
+                                    "customTheme": true,
+                                    "entity": "light.living_room_lamp",
+                                    "name": "Backyard",
+                                    "type": "custom:light-brightness-preset-row"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "LIGHTS",
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "color": "blue",
+                                                    "decimal": "1",
+                                                    "direction": "right",
+                                                    "entity": "light.reading_lamp",
+                                                    "max": "500",
+                                                    "min": "153",
+                                                    "name": "Reading Lamp",
+                                                    "positions": {
+                                                        "icon": "outside",
+                                                        "indicator": "outside",
+                                                        "name": "outside"
+                                                    }
+                                                }
+                                            ],
+                                            "type": "custom:bar-card"
+                                        }
+                                    ],
+                                    "type": "vertical-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:home-floor-0",
+                    "path": "rooms",
+                    "title": "Rooms"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_lighting",
+    "version": 1
+}

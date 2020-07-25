@@ -1,0 +1,606 @@
+{
+    "data": {
+        "deleted_devices": [],
+        "devices": [
+            {
+                "area_id": "1c74c3cb7b0c4ea2906ef7ab9d7a88eb",
+                "config_entries": [
+                    "ac7430e4d390498c9ae54ce3b03bc060"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "153a6d77fed04993808ebbeb7bff28f5",
+                "identifiers": [
+                    [
+                        "ipp",
+                        "e913b46d-7948-327c-6d7e-27a4155dda2d"
+                    ]
+                ],
+                "manufacturer": "Canon",
+                "model": "MP490 series - CUPS+Gutenprint v5.2.13",
+                "name": "Canon MP490 series - CUPS+Gutenprint v5.2.13",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "544bd74028264230bc4f6f379603a7cb",
+                "config_entries": [
+                    "8c82235d2b8d4dc79c31b6f323c2a95a"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:603197bf-5505-0555-bf97-316031bf050000"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "e092764004e348c6a1d0a891b129d152",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:603197bf-5505-0555-bf97-316031bf050000"
+                    ]
+                ],
+                "manufacturer": "ZyXEL",
+                "model": "C2100Z",
+                "name": "CenturyLink UPnP v1.0",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "1c74c3cb7b0c4ea2906ef7ab9d7a88eb",
+                "config_entries": [
+                    "dd373367b7d44033b3045b4b6cfae206"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:0d:6f:00:12:00:b3:4a"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "39b55cb5f9f0495dac3ec59ba519ca8d",
+                "identifiers": [
+                    [
+                        "zha",
+                        "00:0d:6f:00:12:00:b3:4a"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "ESZP: HUSBZB-1, Elelabs, Telegesis, Silabs EmberZNet protocol",
+                "name": "Zigbee Coordinator",
+                "name_by_user": "Hub",
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "06c529e7428c4aca9231167004ae560b"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "1c8cd7a8319241aaaa37da2a70b096fa",
+                "identifiers": [
+                    [
+                        "gpslogger",
+                        "ETA_S9"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "ETA_S9",
+                "name_by_user": "Christian S9",
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "f5663c789e3643fb9bb0215281f48280",
+                "config_entries": [
+                    "dd373367b7d44033b3045b4b6cfae206"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "b0:ce:18:14:03:38:48:3d"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "6d2e46854a65476dac3fb853241cba89",
+                "identifiers": [
+                    [
+                        "zha",
+                        "b0:ce:18:14:03:38:48:3d"
+                    ]
+                ],
+                "manufacturer": "sengled",
+                "model": "E11-G13",
+                "name": "sengled E11-G13",
+                "name_by_user": "Master Bedroom Lamp",
+                "sw_version": "0x00000009",
+                "via_device_id": "39b55cb5f9f0495dac3ec59ba519ca8d"
+            },
+            {
+                "area_id": "e02afc3cc00c46d793d0a255a985513a",
+                "config_entries": [
+                    "dd373367b7d44033b3045b4b6cfae206"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "b0:ce:18:14:03:37:fb:64"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "130ebf40080842adb2d6664832cdef43",
+                "identifiers": [
+                    [
+                        "zha",
+                        "b0:ce:18:14:03:37:fb:64"
+                    ]
+                ],
+                "manufacturer": "sengled",
+                "model": "E11-G13",
+                "name": "sengled E11-G13",
+                "name_by_user": "Kids Bedroom Light",
+                "sw_version": "0x00000009",
+                "via_device_id": "39b55cb5f9f0495dac3ec59ba519ca8d"
+            },
+            {
+                "area_id": "8a637e1185ae4df1999473ff34615fd3",
+                "config_entries": [
+                    "dd373367b7d44033b3045b4b6cfae206"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "b0:ce:18:14:03:37:f3:b2"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "a9be473fc9704e389c89f3c4e025107c",
+                "identifiers": [
+                    [
+                        "zha",
+                        "b0:ce:18:14:03:37:f3:b2"
+                    ]
+                ],
+                "manufacturer": "sengled",
+                "model": "E11-G13",
+                "name": "sengled E11-G13",
+                "name_by_user": "Game Room Light",
+                "sw_version": "0x00000009",
+                "via_device_id": "39b55cb5f9f0495dac3ec59ba519ca8d"
+            },
+            {
+                "area_id": "89274ffaba834c03ba38d734ac5d17e4",
+                "config_entries": [
+                    "dd373367b7d44033b3045b4b6cfae206"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "b0:ce:18:14:00:01:33:ff"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "82a666c05588416b9588da1b24501008",
+                "identifiers": [
+                    [
+                        "zha",
+                        "b0:ce:18:14:00:01:33:ff"
+                    ]
+                ],
+                "manufacturer": "sengled",
+                "model": "E11-N1EA",
+                "name": "sengled E11-N1EA",
+                "name_by_user": "Porch Light",
+                "sw_version": "0x00000031",
+                "via_device_id": "39b55cb5f9f0495dac3ec59ba519ca8d"
+            },
+            {
+                "area_id": "f5663c789e3643fb9bb0215281f48280",
+                "config_entries": [
+                    "b83c494963714df388941fbd06f1fe64"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "2ee52daf85f04b1385812ea8083d75b5",
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "name_by_user": null,
+                "sw_version": "1.1.0",
+                "via_device_id": null
+            },
+            {
+                "area_id": "1c74c3cb7b0c4ea2906ef7ab9d7a88eb",
+                "config_entries": [
+                    "ddce2c50a82f4bccbab8b1dc731053b3"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "a4d413cc6aac457bbee80b00f82205eb",
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.14357010cc50e32f5a87"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "switch",
+                "name": "Garage Light Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "393741fe1b27494eb72f4da0b20387a6",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "27c0fa44787748fbb6a15245b3b4479d"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "VOX A2TF17PFR55MTB",
+                "name": "This Device",
+                "name_by_user": null,
+                "sw_version": "130050002",
+                "via_device_id": "393741fe1b27494eb72f4da0b20387a6"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "85f7084550d649f6a71393b304b48229",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "e592ee1a7d0c4752ad9067cd8f8a054f"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "MSHOP A1MPSLFC7L5AFK",
+                "name": "Koyah's Alexa Apps",
+                "name_by_user": null,
+                "sw_version": "130050002",
+                "via_device_id": "85f7084550d649f6a71393b304b48229"
+            },
+            {
+                "area_id": "544bd74028264230bc4f6f379603a7cb",
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "ff9c4df6cc144ff984008728f48e2c6e",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "G070L81884252FKH"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "FIRE_TV A2LWARUGJLBYEW",
+                "name": "Living Room TV",
+                "name_by_user": null,
+                "sw_version": "652614020",
+                "via_device_id": "ff9c4df6cc144ff984008728f48e2c6e"
+            },
+            {
+                "area_id": "f5663c789e3643fb9bb0215281f48280",
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "6a13272d5839426987300b52ece78f1b",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "G070L818841404UD"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "FIRE_TV A2LWARUGJLBYEW",
+                "name": "Master TV",
+                "name_by_user": null,
+                "sw_version": "652614020",
+                "via_device_id": "6a13272d5839426987300b52ece78f1b"
+            },
+            {
+                "area_id": "544bd74028264230bc4f6f379603a7cb",
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "f7c28f576463414d87737e9eb62d5a1a",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "9ca6e6b622fe4053b5488d572e058f89"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "THIRD_PARTY_AVS_MEDIA_DISPLAY A26TRKU1GG059T",
+                "name": "Alexa Genie",
+                "name_by_user": null,
+                "sw_version": "20180606",
+                "via_device_id": "f7c28f576463414d87737e9eb62d5a1a"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "b38e081318544ac3ba2ea5b122588a61",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "9f02b28edeeb4d51949a415526a9f479"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "UNKNOWN A1ETW4IXK2PYBP",
+                "name": "Christian's Talk to Alexa",
+                "name_by_user": null,
+                "sw_version": "0",
+                "via_device_id": "b38e081318544ac3ba2ea5b122588a61"
+            },
+            {
+                "area_id": "f5663c789e3643fb9bb0215281f48280",
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "cbee065f0b1242619480d3fc311544a0",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "G090LF1183230N20"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "ECHO A3S5BH2HU6VAYF",
+                "name": "Master Echo",
+                "name_by_user": null,
+                "sw_version": "655636720",
+                "via_device_id": "cbee065f0b1242619480d3fc311544a0"
+            },
+            {
+                "area_id": "1c74c3cb7b0c4ea2906ef7ab9d7a88eb",
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "2112363652564438a77776043cc3e8c6",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "7094161150572AGM"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "FIRE_TV ADVBD696BHNV5",
+                "name": "Bar TV",
+                "name_by_user": null,
+                "sw_version": "652614020",
+                "via_device_id": "2112363652564438a77776043cc3e8c6"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "77545c0c2b5b4f24b4f4a39e17b7a502",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "G0W0MB06726413F9"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "TABLET A1J16TEDOYCZTN",
+                "name": "Kiyah tablet",
+                "name_by_user": null,
+                "sw_version": "654620620",
+                "via_device_id": "77545c0c2b5b4f24b4f4a39e17b7a502"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "7116d017dfd747a1a95eb0a000f92f51",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "f80892d6972f40fd9dd5dcf80e48e836"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "VOX A2TF17PFR55MTB",
+                "name": "This Device",
+                "name_by_user": null,
+                "sw_version": "130050002",
+                "via_device_id": "7116d017dfd747a1a95eb0a000f92f51"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "0721d0c81b90436cb444422a5eac5b82",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "608F5C937C0B"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "AMAZONMOBILEMUSIC_ANDROID A1DL2DVDQVK3Q",
+                "name": "Mackenzie's Alexa Apps",
+                "name_by_user": null,
+                "sw_version": "4040210",
+                "via_device_id": "0721d0c81b90436cb444422a5eac5b82"
+            },
+            {
+                "area_id": "544bd74028264230bc4f6f379603a7cb",
+                "config_entries": [
+                    "ddce2c50a82f4bccbab8b1dc731053b3"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "199e25e581ec43958ab79a4d57721527",
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.25048234840d8ebdd089"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "switch",
+                "name": "Century Modem Outlet",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ddce2c50a82f4bccbab8b1dc731053b3"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "5ef7345d71384fa594991d461ff4d518",
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.25048234840d8ebddbfe"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "switch",
+                "name": "Dashboard Outlet",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ddce2c50a82f4bccbab8b1dc731053b3"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "245ae47506fa4a01a018b97d1ffda2ec",
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.25048234840d8ebe31c8"
+                    ]
+                ],
+                "manufacturer": "Tuya",
+                "model": "switch",
+                "name": "Mini Dashboard Outlet",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "794db3f9f8f6435cb7d48c6ec2838b03"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "2951ad3ab83d4d9b8a9164d8329d3f54",
+                "identifiers": [
+                    [
+                        "alexa_media",
+                        "9412dea9d4ea4befa2470f21a8558e7a"
+                    ]
+                ],
+                "manufacturer": "Amazon",
+                "model": "VOX A2TF17PFR55MTB",
+                "name": "This Device",
+                "name_by_user": null,
+                "sw_version": "130050002",
+                "via_device_id": "2951ad3ab83d4d9b8a9164d8329d3f54"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "34d6b93fbb5b48fba160ad6aea5a93d7"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "cbab0a7e65d94076ad1ec4d1da334f28",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2933f75f9ab37736"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-G965U",
+                "name": "SM-G965U",
+                "name_by_user": null,
+                "sw_version": "29",
+                "via_device_id": null
+            },
+            {
+                "area_id": "75c023c2a89d44ba946dfa15d82ab183",
+                "config_entries": [
+                    "e72ecc20456746b4a891d08a4b6326b4"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "66234a08acb94e69ba080978134d718d",
+                "identifiers": [
+                    [
+                        "garbage_collection",
+                        "87b91bf6-61e5-4e1c-b40f-0e2d7b7b8bcd"
+                    ]
+                ],
+                "manufacturer": "Garbage Collection",
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

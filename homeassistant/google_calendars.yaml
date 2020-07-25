@@ -1,0 +1,30 @@
+
+- cal_id: electechace@gmail.com
+  entities:
+  - device_id: my_calendar
+    ignore_availability: true
+    name: My Calendar
+    track: true
+
+- cal_id: "electechace@group.calendar.google.com"
+  entities:
+  - device_id: test_everything
+    name: Give me everything
+    track: true
+- cal_id: "electechace@group.calendar.google.com"
+  entities:
+  - device_id: test_important
+    name: Important Stuff
+    track: true
+    search: "#Important"
+    offset: "!!"
+  - device_id: test_unimportant
+    name: UnImportant Stuff
+    track: true
+    search: "#UnImportant"
+- cal_id: en.usa#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_united_states
+    ignore_availability: true
+    name: Holidays in United States
+    track: true

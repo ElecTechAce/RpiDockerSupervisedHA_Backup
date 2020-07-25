@@ -1,0 +1,77 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74_battery_level": {
+                "added": true,
+                "attributes": {},
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery Level",
+                "state": 41,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+            },
+            "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74_battery_state": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "unknown",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery State",
+                "state": "discharging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+            },
+            "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "Nevada",
+                    "Country": "United States",
+                    "ISO Country Code": "US",
+                    "Locality": "Las Vegas",
+                    "Location": [
+                        36.1862551,
+                        -115.232335
+                    ],
+                    "Postal Code": "89108",
+                    "Sub Administrative Area": "Clark County",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "1428",
+                    "Thoroughfare": "Sapphire Springs Circle"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "1428 Sapphire Springs Cir, Las Vegas, NV 89108, USA",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+            },
+            "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "60:31:97:bf:55:06",
+                    "frequency": 2412,
+                    "ip_address": "192.168.0.13",
+                    "is_hidden": false,
+                    "link_speed": 130,
+                    "signal_level": -54
+                },
+                "icon": "mdi:wifi-strength-3",
+                "name": "Wifi Connection",
+                "state": "CenturyLink1687",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

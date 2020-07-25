@@ -1,0 +1,980 @@
+{
+  "user": {
+    "a0d7b954_portainer": {
+      "options": {},
+      "version": "1.2.1",
+      "image": "hassioaddons/portainer-armv7",
+      "ingress_token": "6r8BRyta3_0jb266Rd9jYUFIjw1YFg0T7OJ8mx6fze8",
+      "auto_update": true,
+      "ingress_panel": true,
+      "uuid": "170958ca1ce94de894f664c30ecc4a95",
+      "protected": false,
+      "access_token": "fba4cb8129a454266ad84cb12efa289214dd562144690294de99d69c03d4c0c48948c5c9d2849658e98522f3bcf40cc5fa251f89bf16a658"
+    },
+    "core_configurator": {
+      "options": {},
+      "version": "5.0.0",
+      "image": "homeassistant/armv7-addon-configurator",
+      "protected": true,
+      "uuid": "329defd8ebc643639b0d6dcaef9e1e51",
+      "ingress_panel": true,
+      "ingress_token": "TeM4hRtWovQR6UaSa0rjiIZL7MHZMDcVCL6li5L49Qg",
+      "auto_update": false,
+      "access_token": "9dad1b1701d5ef387d86d3f2681f75fae60d3c415f60a83a032dbc34ffaf5853bf246903d21dc8d825ec99aeed657d29daff937d0517b443"
+    },
+    "a0d7b954_ide": {
+      "options": {
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "packages": [],
+        "init_commands": []
+      },
+      "version": "2.2.0",
+      "image": "hassioaddons/ide-armv7",
+      "ingress_token": "ZFT8JK6qZ6MTCs-5XjUVUHh72baYY90jj8mP_gh8WC4",
+      "ingress_panel": false,
+      "uuid": "affc791f71594ce981ea19c921c401a3",
+      "protected": true,
+      "auto_update": false,
+      "access_token": "50e5d0b39b807a5ca93fc28df58dc713009f972ce5f07a6793ca2cdd9fefbaf676ebac14133217c958f89223d0b0ff19211823fbed14b639"
+    },
+    "core_mosquitto": {
+      "options": {
+        "logins": [
+          {
+            "username": "Stonesanchor",
+            "password": "Anchor12017"
+          }
+        ],
+        "anonymous": true,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "version": "5.1",
+      "image": "homeassistant/armv7-addon-mosquitto",
+      "protected": true,
+      "uuid": "3a8d10cb8bd44a56b241afc958ec7c42",
+      "ingress_token": "mODwzhUPALjZTwnFHnm9zM_STr0gRVhGNxv2eFx6bVU",
+      "ingress_panel": false,
+      "auto_update": false,
+      "access_token": "922d75b0d76c0c40c74be33c402f08e2392a91f38f92629a4681528419fee322aa4be4d58494680acc81dbc21034f2875e0b79f7bb3ccd67"
+    },
+    "a0d7b954_grafana": {
+      "options": {
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "plugins": [],
+        "env_vars": []
+      },
+      "version": "2.2.5",
+      "image": "hassioaddons/grafana-armv7",
+      "protected": true,
+      "ingress_panel": false,
+      "auto_update": false,
+      "ingress_token": "BEY-BtSAYt7gNZ0RaKdaKMjy5gzcqeqfXNxTOA5VK-A",
+      "uuid": "6c10b42a09da45419b96589f4d9160ac",
+      "access_token": "ca2680e41aab86d9dd80db1aea4a4e6281d8cc977b4e23fb8ad607007001903751e7e202115d234623ea8cbef7b7d383cbacfe9caa5f90ba"
+    },
+    "a0d7b954_grocy": {
+      "options": {},
+      "version": "0.9.0",
+      "image": "hassioaddons/grocy-armv7",
+      "protected": true,
+      "ingress_panel": true,
+      "auto_update": false,
+      "ingress_token": "t90TeOcZT4E-wHVahdxt6Y3AxuE0GpMDLH6zqOYrzEU",
+      "uuid": "3fd4b88c1dcf431390d9ca12e4696103",
+      "access_token": "73115dd340d9d966f65e316829dbfa6dfca78c42f7576612bcd58bdb361ac780e656f4098f481d84f2a4517f526d6c062efe5891a14166b4"
+    },
+    "a0d7b954_logviewer": {
+      "options": {
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "version": "0.8.1",
+      "image": "hassioaddons/log-viewer-armv7",
+      "protected": true,
+      "ingress_panel": true,
+      "auto_update": false,
+      "ingress_token": "0uGH_t6EqNCz86ZVUjeFO81aR-rLw-YlrvMHCM4O3ts",
+      "uuid": "295961a9d7484e67942b968a93004fb5",
+      "access_token": "9faf8371acd75e26b0ac9774b147a6838f2be223785e167258fb53313d93918bd23b3d6ed20932a2ad3a361273f3224460c5caceb48f3923"
+    },
+    "core_samba": {
+      "options": {
+        "workgroup": "WORKGROUP",
+        "username": "christian",
+        "password": "Anchor12017",
+        "interface": "",
+        "allow_hosts": [
+          "10.0.0.0/8",
+          "172.0.0.1/12",
+          "192.168.0.0/16"
+        ],
+        "veto_files": [
+          "._*",
+          ".DS_Store",
+          "Thumbs.db",
+          "icon?",
+          ".Trashes"
+        ],
+        "compatibility_mode": false
+      },
+      "version": "9.2.0",
+      "image": "homeassistant/armv7-addon-samba",
+      "protected": true,
+      "uuid": "aecfec7ba9354eac9b308f5a34931768",
+      "ingress_token": "MbcciMl_UsYTPgRPzJgg_0El0HuuxMwOR01kDwAShX8",
+      "ingress_panel": false,
+      "auto_update": false,
+      "access_token": "776193768fdf8d687c225f6e39a6b926fea2c7c7b791e5057926ebb12195be83329f9f18b3d0b3fe9a1fe0101fe761a7da7a61328f29e886"
+    },
+    "a0d7b954_adb": {
+      "options": {
+        "devices": [
+          "192.168.0.10",
+          "191.168.0.12"
+        ],
+        "reconnect_timeout": 90
+      },
+      "version": "0.6.2",
+      "image": "hassioaddons/adb-armv7",
+      "ingress_token": "vqE83D76LVIWFsTbEVqkrXRm2_x3bn3KtaZyOaA88x4",
+      "ingress_panel": false,
+      "auto_update": false,
+      "uuid": "335a246c796e44619089bdd378bd7a38",
+      "protected": true,
+      "access_token": "99e42b3b11bb9ee07c31938bdb0c2e812e31c41e10db95dd390163922c4603c5ed545828ce7d9ef1c3c3461370a609bb837ac2cd8633f27f"
+    },
+    "a0d7b954_influxdb": {
+      "options": {},
+      "version": "3.7.3",
+      "image": "hassioaddons/influxdb-armv7",
+      "auto_update": false,
+      "ingress_panel": true,
+      "ingress_token": "2WStiUG5RMqtn3qPdxHd86ALYXcs-0kVrxvpSQ6c-XM",
+      "protected": true,
+      "uuid": "f15d5a1f254c46ef934751d1dbc6b040",
+      "access_token": "cc295fd4eeb26614b9467db76c297dde1b764b15008745b03509092b1fa724be4ad8f58efc18ecd82f6109551eb38c8d6aafcc8598a71f0e"
+    }
+  },
+  "system": {
+    "a0d7b954_portainer": {
+      "name": "Portainer",
+      "version": "1.2.1",
+      "slug": "portainer",
+      "description": "Manage your Docker environment with ease",
+      "url": "https://github.com/hassio-addons/addon-portainer",
+      "advanced": true,
+      "ingress": true,
+      "ingress_port": 1337,
+      "startup": "services",
+      "panel_icon": "mdi:docker",
+      "homeassistant": "0.92.0b2",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7"
+      ],
+      "init": false,
+      "map": [
+        "ssl"
+      ],
+      "ports": {
+        "8000/tcp": null
+      },
+      "ports_description": {
+        "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)"
+      },
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "docker_api": true,
+      "options": {},
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "agent_secret": "str?"
+      },
+      "image": "hassioaddons/portainer-{arch}",
+      "homeassistant_api": false,
+      "panel_admin": true,
+      "host_network": false,
+      "full_access": false,
+      "stage": "stable",
+      "host_pid": false,
+      "udev": false,
+      "devicetree": false,
+      "apparmor": true,
+      "gpio": false,
+      "kernel_modules": false,
+      "host_ipc": false,
+      "video": false,
+      "auth_api": false,
+      "stdin": false,
+      "audio": false,
+      "auto_uart": false,
+      "host_dbus": false,
+      "legacy": false,
+      "timeout": 10,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/portainer"
+    },
+    "core_configurator": {
+      "name": "File editor",
+      "version": "5.0.0",
+      "slug": "configurator",
+      "description": "Simple browser-based file editor for Home Assistant",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/configurator",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "homeassistant": "0.91.1",
+      "startup": "application",
+      "init": false,
+      "ingress": true,
+      "panel_icon": "mdi:wrench",
+      "homeassistant_api": true,
+      "boot": "auto",
+      "map": [
+        "backup:rw",
+        "config:rw",
+        "share:rw",
+        "ssl:rw"
+      ],
+      "options": {
+        "dirsfirst": false,
+        "enforce_basepath": true,
+        "ignore_pattern": [
+          "__pycache__",
+          ".cloud",
+          ".storage",
+          "deps"
+        ],
+        "ssh_keys": []
+      },
+      "schema": {
+        "dirsfirst": "bool",
+        "enforce_basepath": "bool",
+        "ignore_pattern": [
+          "str"
+        ],
+        "ssh_keys": [
+          "str"
+        ]
+      },
+      "image": "homeassistant/{arch}-addon-configurator",
+      "video": false,
+      "udev": false,
+      "legacy": false,
+      "host_dbus": false,
+      "gpio": false,
+      "advanced": false,
+      "audio": false,
+      "devicetree": false,
+      "stdin": false,
+      "ingress_port": 8099,
+      "kernel_modules": false,
+      "timeout": 10,
+      "docker_api": false,
+      "stage": "stable",
+      "hassio_role": "default",
+      "apparmor": true,
+      "host_pid": false,
+      "hassio_api": false,
+      "panel_admin": true,
+      "host_network": false,
+      "auth_api": false,
+      "host_ipc": false,
+      "auto_uart": false,
+      "full_access": false,
+      "repository": "core",
+      "location": "/data/addons/core/configurator"
+    },
+    "a0d7b954_ide": {
+      "name": "IDE",
+      "version": "2.2.0",
+      "slug": "ide",
+      "description": "Advanced IDE for Home Assistant, based on Cloud9 IDE",
+      "url": "https://github.com/hassio-addons/addon-ide",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:8321]",
+      "startup": "services",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "manager",
+      "auth_api": true,
+      "homeassistant_api": true,
+      "auto_uart": true,
+      "ports": {
+        "8321/tcp": 8321
+      },
+      "ports_description": {
+        "8321/tcp": "IDE web interface"
+      },
+      "map": [
+        "config:rw",
+        "ssl:rw",
+        "addons:rw",
+        "share:rw",
+        "backup:rw"
+      ],
+      "options": {
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "packages": [],
+        "init_commands": []
+      },
+      "schema": {
+        "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "packages": [
+          "str"
+        ],
+        "init_commands": [
+          "str"
+        ],
+        "leave_front_door_open": "bool?"
+      },
+      "image": "hassioaddons/ide-{arch}",
+      "udev": false,
+      "ingress": false,
+      "panel_admin": true,
+      "apparmor": true,
+      "gpio": false,
+      "devicetree": false,
+      "full_access": false,
+      "stage": "stable",
+      "kernel_modules": false,
+      "legacy": false,
+      "host_pid": false,
+      "host_network": false,
+      "panel_icon": "mdi:puzzle",
+      "docker_api": false,
+      "init": true,
+      "timeout": 10,
+      "video": false,
+      "stdin": false,
+      "ingress_port": 8099,
+      "host_ipc": false,
+      "audio": false,
+      "advanced": false,
+      "host_dbus": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/ide"
+    },
+    "core_mosquitto": {
+      "name": "Mosquitto broker",
+      "version": "5.1",
+      "slug": "mosquitto",
+      "description": "An Open Source MQTT broker",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/mosquitto",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "startup": "system",
+      "boot": "auto",
+      "map": [
+        "ssl",
+        "share"
+      ],
+      "discovery": [
+        "mqtt"
+      ],
+      "services": [
+        "mqtt:provide"
+      ],
+      "auth_api": true,
+      "ports": {
+        "1883/tcp": 1883,
+        "1884/tcp": 1884,
+        "8883/tcp": 8883,
+        "8884/tcp": 8884
+      },
+      "options": {
+        "logins": [],
+        "anonymous": false,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_certificate": false
+      },
+      "schema": {
+        "logins": [
+          {
+            "username": "str",
+            "password": "str"
+          }
+        ],
+        "anonymous": "bool",
+        "customize": {
+          "active": "bool",
+          "folder": "str"
+        },
+        "cafile": "str?",
+        "certfile": "str",
+        "keyfile": "str",
+        "require_certificate": "bool"
+      },
+      "image": "homeassistant/{arch}-addon-mosquitto",
+      "udev": false,
+      "ingress": false,
+      "panel_admin": true,
+      "apparmor": true,
+      "gpio": false,
+      "homeassistant_api": false,
+      "devicetree": false,
+      "auto_uart": false,
+      "full_access": false,
+      "stage": "stable",
+      "kernel_modules": false,
+      "legacy": false,
+      "host_pid": false,
+      "host_network": false,
+      "panel_icon": "mdi:puzzle",
+      "docker_api": false,
+      "init": true,
+      "timeout": 10,
+      "hassio_role": "default",
+      "video": false,
+      "stdin": false,
+      "ingress_port": 8099,
+      "host_ipc": false,
+      "audio": false,
+      "advanced": false,
+      "hassio_api": false,
+      "host_dbus": false,
+      "repository": "core",
+      "location": "/data/addons/core/mosquitto"
+    },
+    "a0d7b954_grafana": {
+      "name": "Grafana",
+      "version": "2.2.5",
+      "slug": "grafana",
+      "description": "The open platform for beautiful analytics and monitoring",
+      "url": "https://github.com/hassio-addons/addon-grafana",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "startup": "services",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7"
+      ],
+      "ports": {
+        "80/tcp": 3000
+      },
+      "ports_description": {
+        "80/tcp": "Grafana web interface"
+      },
+      "map": [
+        "ssl"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "options": {
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "plugins": [],
+        "env_vars": []
+      },
+      "schema": {
+        "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "plugins": [
+          "str"
+        ],
+        "env_vars": [
+          {
+            "name": "match(^GF_([A-Z0-9_])+$)",
+            "value": "str"
+          }
+        ]
+      },
+      "image": "hassioaddons/grafana-{arch}",
+      "host_dbus": false,
+      "stdin": false,
+      "timeout": 10,
+      "ingress_port": 8099,
+      "legacy": false,
+      "panel_icon": "mdi:puzzle",
+      "auto_uart": false,
+      "docker_api": false,
+      "udev": false,
+      "audio": false,
+      "ingress": false,
+      "gpio": false,
+      "homeassistant_api": false,
+      "full_access": false,
+      "panel_admin": true,
+      "host_network": false,
+      "devicetree": false,
+      "host_ipc": false,
+      "auth_api": false,
+      "kernel_modules": false,
+      "apparmor": true,
+      "host_pid": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/grafana",
+      "advanced": false,
+      "stage": "stable",
+      "video": false,
+      "init": true
+    },
+    "a0d7b954_grocy": {
+      "name": "Grocy",
+      "version": "0.9.0",
+      "slug": "grocy",
+      "description": "ERP beyond your fridge! A groceries & household management solution for your home",
+      "url": "https://github.com/hassio-addons/addon-grocy",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "ingress": true,
+      "ingress_port": 1337,
+      "panel_icon": "mdi:cart",
+      "startup": "system",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "map": [
+        "ssl"
+      ],
+      "ports": {
+        "80/tcp": null
+      },
+      "ports_description": {
+        "80/tcp": "Web interface (Not required for Ingress)"
+      },
+      "options": {
+        "culture": "en",
+        "currency": "USD",
+        "entry_page": "stock",
+        "features": {
+          "batteries": true,
+          "calendar": true,
+          "chores": true,
+          "equipment": true,
+          "recipes": true,
+          "shoppinglist": true,
+          "stock": true,
+          "tasks": true
+        },
+        "tweaks": {
+          "chores_assignment": true,
+          "multiple_shopping_lists": true,
+          "stock_best_before_date_tracking": true,
+          "stock_location_tracking": true,
+          "stock_price_tracking": true,
+          "stock_product_freezing": true,
+          "stock_product_opened_tracking": true
+        },
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "culture": "list(cs|da|de|en|en_GB|es|fr|hu|it|ja|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sv_SE|tr|zh_TW)",
+        "currency": "match(^[A-Z]{3}$)",
+        "entry_page": "list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)",
+        "features": {
+          "batteries": "bool",
+          "calendar": "bool",
+          "chores": "bool",
+          "equipment": "bool",
+          "recipes": "bool",
+          "shoppinglist": "bool",
+          "stock": "bool",
+          "tasks": "bool"
+        },
+        "tweaks": {
+          "calendar_first_day_of_week": "int(0,6)?",
+          "chores_assignment": "bool",
+          "meal_plan_first_day_of_week": "int(0,6)?",
+          "multiple_shopping_lists": "bool",
+          "stock_best_before_date_tracking": "bool",
+          "stock_location_tracking": "bool",
+          "stock_price_tracking": "bool",
+          "stock_product_freezing": "bool",
+          "stock_product_opened_tracking": "bool"
+        },
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str"
+      },
+      "image": "hassioaddons/grocy-{arch}",
+      "homeassistant_api": false,
+      "panel_admin": true,
+      "host_network": false,
+      "init": true,
+      "full_access": false,
+      "stage": "stable",
+      "advanced": false,
+      "host_pid": false,
+      "udev": false,
+      "devicetree": false,
+      "apparmor": true,
+      "gpio": false,
+      "kernel_modules": false,
+      "docker_api": false,
+      "host_ipc": false,
+      "video": false,
+      "auth_api": false,
+      "stdin": false,
+      "audio": false,
+      "auto_uart": false,
+      "host_dbus": false,
+      "legacy": false,
+      "timeout": 10,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/grocy"
+    },
+    "a0d7b954_logviewer": {
+      "name": "Log Viewer",
+      "version": "0.8.1",
+      "slug": "logviewer",
+      "description": "Browser-based log utility for Home Assistant",
+      "url": "https://github.com/hassio-addons/addon-log-viewer",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "startup": "application",
+      "init": false,
+      "ingress": true,
+      "ingress_port": 1337,
+      "panel_icon": "mdi:file-document-box-outline",
+      "homeassistant": "0.92.0b2",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "homeassistant_api": true,
+      "hassio_api": true,
+      "hassio_role": "default",
+      "auth_api": true,
+      "boot": "auto",
+      "ports": {
+        "80/tcp": null
+      },
+      "ports_description": {
+        "80/tcp": "Web interface (Not required for Ingress)"
+      },
+      "map": [
+        "config",
+        "share",
+        "ssl"
+      ],
+      "options": {
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "leave_front_door_open": "bool?"
+      },
+      "image": "hassioaddons/log-viewer-{arch}",
+      "legacy": false,
+      "audio": false,
+      "host_ipc": false,
+      "udev": false,
+      "apparmor": true,
+      "video": false,
+      "docker_api": false,
+      "gpio": false,
+      "devicetree": false,
+      "advanced": false,
+      "host_dbus": false,
+      "host_pid": false,
+      "kernel_modules": false,
+      "panel_admin": true,
+      "timeout": 10,
+      "stdin": false,
+      "full_access": false,
+      "auto_uart": false,
+      "stage": "stable",
+      "host_network": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/log-viewer"
+    },
+    "core_samba": {
+      "name": "Samba share",
+      "version": "9.2.0",
+      "slug": "samba",
+      "description": "Expose Home Assistant folders with SMB/CIFS",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/samba",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "startup": "services",
+      "boot": "auto",
+      "init": false,
+      "host_network": true,
+      "map": [
+        "config:rw",
+        "ssl:rw",
+        "addons:rw",
+        "share:rw",
+        "backup:rw"
+      ],
+      "options": {
+        "workgroup": "WORKGROUP",
+        "username": "homeassistant",
+        "password": null,
+        "interface": "",
+        "allow_hosts": [
+          "10.0.0.0/8",
+          "172.16.0.0/12",
+          "192.168.0.0/16",
+          "fe80::/10"
+        ],
+        "veto_files": [
+          "._*",
+          ".DS_Store",
+          "Thumbs.db",
+          "icon?",
+          ".Trashes"
+        ],
+        "compatibility_mode": false
+      },
+      "schema": {
+        "workgroup": "str",
+        "username": "str",
+        "password": "str",
+        "interface": "str",
+        "allow_hosts": [
+          "str"
+        ],
+        "veto_files": [
+          "str"
+        ],
+        "compatibility_mode": "bool"
+      },
+      "image": "homeassistant/{arch}-addon-samba",
+      "auth_api": false,
+      "ingress": false,
+      "ingress_port": 8099,
+      "host_dbus": false,
+      "hassio_role": "default",
+      "stdin": false,
+      "stage": "stable",
+      "gpio": false,
+      "legacy": false,
+      "video": false,
+      "host_ipc": false,
+      "host_pid": false,
+      "full_access": false,
+      "udev": false,
+      "kernel_modules": false,
+      "apparmor": true,
+      "docker_api": false,
+      "devicetree": false,
+      "auto_uart": false,
+      "timeout": 10,
+      "advanced": false,
+      "panel_admin": true,
+      "panel_icon": "mdi:puzzle",
+      "homeassistant_api": false,
+      "hassio_api": false,
+      "audio": false,
+      "repository": "core",
+      "location": "/data/addons/core/samba"
+    },
+    "a0d7b954_adb": {
+      "name": "ADB - Android Debug Bridge",
+      "version": "0.6.2",
+      "slug": "adb",
+      "description": "The Android Debug Bridge server program",
+      "url": "https://github.com/hassio-addons/addon-adb",
+      "startup": "services",
+      "ports": {
+        "5037/tcp": 5037
+      },
+      "ports_description": {
+        "5037/tcp": "ADB Server"
+      },
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7",
+        "i386"
+      ],
+      "init": false,
+      "map": [
+        "config:rw",
+        "share:rw",
+        "ssl:rw"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "options": {
+        "devices": [],
+        "reconnect_timeout": 90
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "keys_path": "str?",
+        "devices": [
+          "str"
+        ],
+        "reconnect_timeout": "int"
+      },
+      "image": "hassioaddons/adb-{arch}",
+      "homeassistant_api": false,
+      "panel_admin": true,
+      "host_network": false,
+      "full_access": false,
+      "stage": "stable",
+      "advanced": false,
+      "host_pid": false,
+      "udev": false,
+      "devicetree": false,
+      "apparmor": true,
+      "gpio": false,
+      "ingress": false,
+      "kernel_modules": false,
+      "docker_api": false,
+      "host_ipc": false,
+      "video": false,
+      "panel_icon": "mdi:puzzle",
+      "auth_api": false,
+      "stdin": false,
+      "audio": false,
+      "ingress_port": 8099,
+      "auto_uart": false,
+      "host_dbus": false,
+      "legacy": false,
+      "timeout": 10,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/adb"
+    },
+    "a0d7b954_influxdb": {
+      "name": "InfluxDB",
+      "version": "3.7.3",
+      "slug": "influxdb",
+      "description": "Scalable datastore for metrics, events, and real-time analytics",
+      "url": "https://github.com/hassio-addons/addon-influxdb",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "ingress": true,
+      "ingress_port": 1337,
+      "panel_icon": "mdi:chart-areaspline",
+      "startup": "services",
+      "homeassistant": "0.92.0b2",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7",
+        "i386"
+      ],
+      "init": false,
+      "map": [
+        "share:rw",
+        "ssl"
+      ],
+      "boot": "auto",
+      "ports": {
+        "80/tcp": null,
+        "8086/tcp": 8086
+      },
+      "ports_description": {
+        "80/tcp": "Web interface (Not required for Ingress)",
+        "8086/tcp": "InfluxDB server"
+      },
+      "hassio_api": true,
+      "auth_api": true,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "options": {
+        "auth": true,
+        "reporting": true,
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "envvars": []
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "auth": "bool",
+        "reporting": "bool",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "envvars": [
+          {
+            "name": "match(^INFLUXDB_([A-Z0-9_])+$)",
+            "value": "str"
+          }
+        ],
+        "leave_front_door_open": "bool?"
+      },
+      "image": "hassioaddons/influxdb-{arch}",
+      "host_dbus": false,
+      "stdin": false,
+      "stage": "stable",
+      "gpio": false,
+      "legacy": false,
+      "video": false,
+      "host_ipc": false,
+      "host_pid": false,
+      "full_access": false,
+      "host_network": false,
+      "udev": false,
+      "kernel_modules": false,
+      "apparmor": true,
+      "docker_api": false,
+      "devicetree": false,
+      "auto_uart": false,
+      "timeout": 10,
+      "advanced": false,
+      "panel_admin": true,
+      "audio": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/influxdb"
+    }
+  }
+}

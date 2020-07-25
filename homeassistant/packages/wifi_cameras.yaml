@@ -1,0 +1,20 @@
+###############################
+#     07/22/2020
+#   V380 WIFI CAMERAS
+#
+###############################
+# camera:
+#  - platform: generic
+#   name: living room cam 1
+#     # still_image_url: http://admin:Anchor12017@192.168.0.45/jpg/image.jpg
+#   stream_source: !secret cam1_url
+
+#  - platform: generic
+#   name: living room cam 2
+#     # still_image_url: http://admin:Anchor12017@192.168.0.46/jpg/image.jpg
+#   stream_source: !secret cam2_url
+    
+#  - platform: generic
+#   name: kitchen cam 1
+#   still_image_url: http://admin:Anchor12017@192.168.0.47/jpg/image.jpg
+#   stream_source: !secret cam3_url

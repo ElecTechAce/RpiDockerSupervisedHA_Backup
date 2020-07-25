@@ -1,0 +1,61 @@
+{
+    "data": {
+        "archived": false,
+        "authors": [
+            "@keatontaylor",
+            "@alandtse"
+        ],
+        "category": "integration",
+        "config_flow": true,
+        "content_in_root": false,
+        "country": [],
+        "default_branch": "dev",
+        "description": "This is a custom component to allow control of Amazon Alexa devices in Home Assistant using the unofficial Alexa API.",
+        "domain": "alexa_media",
+        "domains": [
+            "media_player",
+            "switch",
+            "alarm_control_panel",
+            "sensor"
+        ],
+        "downloads": 4068,
+        "file_name": "",
+        "filename": "alexa_media.zip",
+        "first_install": false,
+        "fork": false,
+        "full_name": "custom-components/alexa_media_player",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": "0.106.0",
+        "id": "139664351",
+        "installed": true,
+        "installed_commit": "298b92d",
+        "installed_version": "v2.10.0",
+        "iot_class": "cloud_poll",
+        "last_commit": "298b92d",
+        "last_updated": "2020-07-16T04:55:24Z",
+        "last_version": "v2.10.0",
+        "manifest_name": "Alexa Media Player",
+        "new": false,
+        "open_issues": 30,
+        "persistent_directory": null,
+        "published_tags": [
+            "v2.10.0",
+            "v2.9.2",
+            "v2.9.1",
+            "v2.9.0",
+            "v2.8.9"
+        ],
+        "pushed_at": "2020-07-16T04:55:24",
+        "releases": true,
+        "render_readme": false,
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 494,
+        "topics": [],
+        "zip_release": true
+    },
+    "key": "hacs/139664351.hacs",
+    "version": "6"
+}

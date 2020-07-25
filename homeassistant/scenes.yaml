@@ -1,0 +1,112 @@
+- id: '1592470993941'
+  name: Cooking
+  entities:
+    light.sengled_e11_n1ea_ff330100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 370
+      friendly_name: Porch Light
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 500
+      min_mireds: 154
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+- id: '1592471060561'
+  name: Cleaning
+  entities:
+    light.sengled_e11_g13_b2f33703_level_on_off:
+      friendly_name: Game Room Light
+      state: unavailable
+      supported_features: 41
+- id: '1592471124968'
+  name: Party
+  entities:
+    light.sengled_e11_g13_b2f33703_level_on_off:
+      friendly_name: Game Room Light
+      state: unavailable
+      supported_features: 41
+    light.sengled_e11_n1ea_ff330100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 370
+      friendly_name: Porch Light
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 500
+      min_mireds: 154
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+- id: '1592471142858'
+  name: BBQ
+  entities:
+    light.sengled_e11_n1ea_ff330100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 370
+      friendly_name: Porch Light
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 500
+      min_mireds: 154
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+- id: '1592471162197'
+  name: Romantic
+  entities:
+    light.sengled_e11_g13_3d483803_level_on_off:
+      friendly_name: Master Bedroom Lamp
+      off_brightness:
+      state: 'off'
+      supported_features: 41
+    switch.lg_tv_power:
+      friendly_name: LG TV Power
+      state: unavailable
+- id: '1592471429155'
+  name: Theater
+  entities:
+    switch.lg_tv_power:
+      friendly_name: LG TV Power
+      state: unavailable
+- id: '1592471475536'
+  name: Netflix and Chill
+  entities: {}
+- id: '1592471511798'
+  name: Reading Relaxation
+  entities: {}
+- id: '1592471526373'
+  name: Dance
+  entities: {}
+- id: '1592471555519'
+  name: Good Morning
+  entities: {}
+- id: '1592471566109'
+  name: Good Night
+  entities: {}
+- id: '1592471606229'
+  name: Building DIY
+  entities: {}

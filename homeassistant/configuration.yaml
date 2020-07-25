@@ -1,0 +1,125 @@
+homeassistant:
+  name: StonesAnchor
+  latitude: !secret secret_latitude
+  longitude: !secret secret_longitude
+  elevation: 0
+  unit_system: imperial
+  time_zone: America/Los_Angeles
+  packages: !include_dir_named packages
+  customize: !include customize.yaml
+# Configure a default setup of Home Assistant (frontend, api, etc)
+
+default_config:
+
+frontend:
+  javascript_version: latest
+  themes: !include_dir_merge_named themes
+
+hacs:
+    token: !secret secret_hacs
+
+discovery:
+  enable:
+
+anniversaries:
+  sensors:
+  - name: Wedding Anniversary
+    date: '2017-01-20'
+  - name: Christmas
+    date: '2020-12-25'
+
+history:
+  include:
+    domains:
+      - sensor
+      - switch
+      - media_player
+      - light
+      - binary_sensor
+      - cover
+
+cloud:
+
+panel_custom:
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:floorplan
+    url_path: floorplan
+    config:
+      hide_app_toolbar:
+      config: /local/custom_ui/floorplan/floorplan.yaml
+
+  - name: clock
+    sidebar_title: Alarm Clock
+    sidebar_icon: mdi:clock
+    url_path: clock
+    config:
+      hide_app_toolbar:
+      config: /local/custom_ui/floorplan/floorclock.yaml
+
+######################
+#       Notify       #
+###################### 
+notify:
+  - platform: alexa_media
+    friendly_name: notify_echo
+
+  - platform: pushbullet
+    name: notify.christian
+    api_key: !secret pushbullet_api
+
+fastdotcom:
+  scan_interval:
+    minutes: 30
+
+panel_iframe:
+  ide:
+    title: IDE
+    icon: mdi:code-braces
+    url: !secret ide_url
+
+#############################
+#     Device Tracker        #
+############################# 
+
+camera:
+  - platform: generic
+    name: kitchen cam
+    still_image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReE8bYiyBxphVHycA8lwqZ9dzCyY6n_1EgrA&usqp=CAU
+    stream_source: !secret cam1_url
+  - platform: generic
+    name: living room cam
+    still_image_url: https://slm-assets.secondlife.com/assets/13403267/view_large/Vendore_Camera_Security_Control_Sci_Fi.jpg
+    stream_source: !secret cam3_url
+  - platform: generic
+    name: living room cam 2
+    still_image_url: https://slm-assets.secondlife.com/assets/13403267/view_large/Vendore_Camera_Security_Control_Sci_Fi.jpg
+    stream_source: !secret cam2_url
+
+mqtt:
+  discovery: true
+  discovery_prefix: homeassistant
+  broker: 192.168.0.31
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: !secret MQTT_USERNAME
+  password: !secret MQTT_PASSWORD
+  # Example configuration.yaml entry
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+# Text to speech
+tts:
+  - platform: google_translate
+############################################
+#                Includes                  #
+############################################ 
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+# input_boolean: !include_dir_named input_boolens
+
+# alarm_control_panel: !include resources/bwalarm/bwalarm.yaml
+# alarm_control_panel: !include alarm.yaml

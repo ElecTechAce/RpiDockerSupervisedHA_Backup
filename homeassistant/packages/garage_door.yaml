@@ -1,0 +1,60 @@
+###############################################################################
+#   @author         :   Christian Stone
+#   @date           :   07/16/2020
+#   @package        :   Garage Door
+#   @description    :   Sonoff Switches
+#                   :   
+#   @url            :   
+###############################################################################
+##    GARAGE DOOR OPENER
+#################################
+##  switch.sonoff_10093734
+sonoff:
+  username: !secret sonoff_user
+  password: !secret sonoff_pass
+  api_region: 'us'
+  scan_interval: 90 
+  entity_prefix: True
+  debug: false
+  
+##binary_sensor.garage_status
+binary_sensor:
+  - platform: template
+    sensors:
+      garage_status:
+        device_class: opening
+        value_template: "{{ is_state('switch.sonoff_1000674c8b', 'on') }}"
+##binary_sensor.garage_motion
+      movement:
+        device_class: motion
+        value_template: "{{ is_state('switch.sonoff_1000674c8b', 'on') }}"
+
+
+#         SENSORS
+##################################
+#Template Switch for changing garage door icon and switch from on/off to open close
+#binary_sensor.garage_opener
+switch:
+  - platform: template
+    switches:
+      garage_opener:
+        value_template: "{{ is_state('switch.sonoff_1000674c8b', 'on') }}"
+        turn_on:
+          service: switch.turn_on
+          data:
+            entity_id: switch.sonoff_1000674c8b
+        turn_off:
+          service: switch.turn_on
+          data:
+            entity_id: switch.sonoff_1000674c8b
+        icon_template: >-
+          {% if is_state('switch.sonoff_1000674c8b', 'open') %}
+            mdi:garage-open
+          {% else %}
+            mdi:garage
+          {% endif %}  
+##      Timer
+#######################33
+# timer:
+#   garage_open:
+#     duration: '00:10:00'

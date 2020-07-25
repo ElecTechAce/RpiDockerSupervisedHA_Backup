@@ -1,0 +1,222 @@
+{
+    "data": {
+        "alexa_enabled": true,
+        "alexa_entity_configs": {
+            "binary_sensor.remote_ui": {
+                "should_expose": false
+            },
+            "binary_sensor.updater": {
+                "should_expose": false
+            },
+            "binary_sensor.workday_sensor": {
+                "should_expose": false
+            },
+            "light.browser_mod_4e6cbcdc_c4590750": {
+                "should_expose": false
+            },
+            "light.browser_mod_e57d860e_e0e64d08": {
+                "should_expose": false
+            },
+            "light.browser_mod_fa578a81_e4570210": {
+                "should_expose": false
+            },
+            "light.dc4f228dc3ad_192_168_0_28": {
+                "should_expose": false
+            },
+            "light.dc4f22cfa97f_192_168_0_29": {
+                "should_expose": false
+            },
+            "light.dc4f22e1a629_192_168_0_32": {
+                "should_expose": false
+            },
+            "light.dc4f22f51327_192_168_0_33": {
+                "should_expose": false
+            },
+            "light.sengled_e11_g13_3d483803_level_on_off": {
+                "should_expose": true
+            },
+            "light.sengled_e11_g13_64fb3703_level_on_off": {
+                "should_expose": false
+            },
+            "light.sengled_e11_g13_b2f33703_level_on_off": {
+                "should_expose": false
+            },
+            "media_player.alexa_genie": {
+                "should_expose": false
+            },
+            "media_player.bar_tv": {
+                "should_expose": false
+            },
+            "media_player.browser_mod_4e6cbcdc_c4590750": {
+                "should_expose": false
+            },
+            "media_player.browser_mod_e57d860e_e0e64d08": {
+                "should_expose": false
+            },
+            "media_player.browser_mod_fa578a81_e4570210": {
+                "should_expose": false
+            },
+            "media_player.christian_s_talk_to_alexa": {
+                "should_expose": false
+            },
+            "media_player.kiyah_tablet": {
+                "should_expose": false
+            },
+            "media_player.koyah_s_alexa_apps": {
+                "should_expose": false
+            },
+            "media_player.laptop": {
+                "should_expose": false
+            },
+            "media_player.living_room_tv": {
+                "should_expose": false
+            },
+            "media_player.mackenzie_s_alexa_apps": {
+                "should_expose": false
+            },
+            "media_player.master_echo": {
+                "should_expose": true
+            },
+            "media_player.this_device": {
+                "should_expose": false
+            },
+            "media_player.this_device_2": {
+                "should_expose": false
+            },
+            "scene.bbq": {
+                "should_expose": false
+            },
+            "scene.building": {
+                "should_expose": false
+            },
+            "scene.cleaning": {
+                "should_expose": false
+            },
+            "scene.cooking": {
+                "should_expose": false
+            },
+            "scene.dance": {
+                "should_expose": false
+            },
+            "scene.good_morning": {
+                "should_expose": false
+            },
+            "scene.good_night": {
+                "should_expose": false
+            },
+            "scene.netflix_and_chill": {
+                "should_expose": false
+            },
+            "scene.party": {
+                "should_expose": false
+            },
+            "scene.reading_relaxation": {
+                "should_expose": false
+            },
+            "scene.romantic": {
+                "should_expose": false
+            },
+            "scene.theater": {
+                "should_expose": false
+            },
+            "script.cancel_timer": {
+                "should_expose": false
+            },
+            "script.finish_timer": {
+                "should_expose": false
+            },
+            "script.pause_timer": {
+                "should_expose": false
+            },
+            "script.start_timer": {
+                "should_expose": false
+            },
+            "switch.14357010cc50e32f5a87": {
+                "should_expose": false
+            },
+            "switch.alexa_genie_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.alexa_genie_repeat_switch": {
+                "should_expose": false
+            },
+            "switch.alexa_genie_shuffle_switch": {
+                "should_expose": false
+            },
+            "switch.bar_tv_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.christian_s_talk_to_alexa_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.christian_s_talk_to_alexa_repeat_switch": {
+                "should_expose": false
+            },
+            "switch.christian_s_talk_to_alexa_shuffle_switch": {
+                "should_expose": false
+            },
+            "switch.kiyah_tablet_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.koyah_s_alexa_apps_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.lg_tv_power": {
+                "should_expose": false
+            },
+            "switch.living_room_tv_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.mackenzie_s_alexa_apps_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.master_echo_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.master_echo_repeat_switch": {
+                "should_expose": false
+            },
+            "switch.master_tv_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.sonoff_1000674c8b": {
+                "should_expose": false
+            },
+            "switch.this_device_do_not_disturb_switch": {
+                "should_expose": false
+            },
+            "switch.this_device_do_not_disturb_switch_2": {
+                "should_expose": false
+            }
+        },
+        "cloud_user": null,
+        "cloudhooks": {
+            "015c3bb15d7d4887ec81c8ac263f0bab68b06aab58519826b8585294eacc56fb": {
+                "cloudhook_id": "5a4ae11fdc8a4fb4bc90fb15a16ceae6",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABe6zIR3PHNxIiROqebg2yTtqrSQrW58li85ZujYzaazmbjHTKo50rYqgWIivUDVyHroOGvLZDvkKyoN1b6aS6XhtkADd9VvHTalylF10LVd4MsnlC3OL5PaOin3hjL8Ye2xclZ-UefoN8CL1iKdrb-5hGjzk-OXUowvA0BcqyqT4TGVhw=",
+                "managed": true,
+                "webhook_id": "015c3bb15d7d4887ec81c8ac263f0bab68b06aab58519826b8585294eacc56fb"
+            },
+            "54195fb80208f764bc9d809bdd2bac7d945c7777d8f6aa5476dcbe53cfb5e9a9": {
+                "cloudhook_id": "3bf5fd3b29584969857e63b8c1cc486b",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABe2Ol2h_CGrVM2nYefKSr_bZqN_zANy4iKl-fKLj5SjkqaBPQqkRDBHPYAnveCZ6FoApRA7d9iWBrjXi1hHJ2bwImRDIVYgfyXwRfHJWxbBS2B_CRoEJqH1bGMqqE0ZJ5uz6Yez9CUyJ4MuQzqRG9sfJiRq96iSZC0UeGNE8eMVCcq1rc=",
+                "managed": true,
+                "webhook_id": "54195fb80208f764bc9d809bdd2bac7d945c7777d8f6aa5476dcbe53cfb5e9a9"
+            },
+            "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74": {
+                "cloudhook_id": "b5cacb5af8b8418b9ee54091ca1d7307",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABfGUPUjchT_ydUsnAuvv23_YHU4TU4pHVizl4tHDLHNCpZKt8WBhFoUOh0PzAXfHXhBERWnKxE5cL0mCvd0ymOaJxtGkqqroEYWXworXtwkOvN-2xD-uIiZiWjOyLbwNvNkf2csq_mgznFaKfElt3UtjiYdLkegrU0b8VOZjz2I444iRo=",
+                "managed": true,
+                "webhook_id": "8f2a6116667fa421618da35289b2b6a9c5011999f985631d997c9e5084b25c74"
+            }
+        },
+        "google_enabled": false,
+        "google_entity_configs": {},
+        "google_local_webhook_id": "460d1de13904984f09457a08ae98dfb8b2198a2c8aaf9e5c880cc7e45a651f52",
+        "google_secure_devices_pin": null,
+        "remote_enabled": true,
+        "username": "dfe3d3a4-892c-4785-891c-cafd1910358b"
+    },
+    "key": "cloud",
+    "version": 1
+}

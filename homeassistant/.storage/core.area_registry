@@ -1,0 +1,64 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "544bd74028264230bc4f6f379603a7cb",
+                "name": "Living Room"
+            },
+            {
+                "id": "a6831e2b8e4449f4842bcf4f20b22747",
+                "name": "Kitchen"
+            },
+            {
+                "id": "57ad540a556d4f0daabf3b442dacd308",
+                "name": "Bedroom"
+            },
+            {
+                "id": "1c74c3cb7b0c4ea2906ef7ab9d7a88eb",
+                "name": "Garage"
+            },
+            {
+                "id": "f5663c789e3643fb9bb0215281f48280",
+                "name": "Master Bedroom"
+            },
+            {
+                "id": "d49d041fb19542f9b158f58eb8ac569d",
+                "name": "Front Entry"
+            },
+            {
+                "id": "e02afc3cc00c46d793d0a255a985513a",
+                "name": "Kids Bedroom"
+            },
+            {
+                "id": "788432e1a882428e8f39b0746fb758d7",
+                "name": "Hallway"
+            },
+            {
+                "id": "7543db9f9d7b44f4baa306a7b58e278f",
+                "name": "Patio"
+            },
+            {
+                "id": "89274ffaba834c03ba38d734ac5d17e4",
+                "name": "Porch"
+            },
+            {
+                "id": "8a637e1185ae4df1999473ff34615fd3",
+                "name": "Game Room"
+            },
+            {
+                "id": "7455637b55894e099c684d64a5beba12",
+                "name": "Stones Anchor Bar"
+            },
+            {
+                "id": "8d577c0fac24468b8b6ab3ad525ca784",
+                "name": "Master Bath"
+            },
+            {
+                "id": "75c023c2a89d44ba946dfa15d82ab183",
+                "name": "Home"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

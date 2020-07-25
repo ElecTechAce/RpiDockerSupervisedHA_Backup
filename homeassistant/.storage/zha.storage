@@ -1,0 +1,33 @@
+{
+    "data": {
+        "devices": [
+            {
+                "ieee": "00:0d:6f:00:12:00:b3:4a",
+                "last_seen": 1595568853.4527113,
+                "name": "Silicon Labs EZSP"
+            },
+            {
+                "ieee": "b0:ce:18:14:03:38:48:3d",
+                "last_seen": 1595650190.3305323,
+                "name": "sengled E11-G13"
+            },
+            {
+                "ieee": "b0:ce:18:14:03:37:fb:64",
+                "last_seen": 1595649673.935769,
+                "name": "sengled E11-G13"
+            },
+            {
+                "ieee": "b0:ce:18:14:03:37:f3:b2",
+                "last_seen": 1594956160.6719153,
+                "name": "sengled E11-G13"
+            },
+            {
+                "ieee": "b0:ce:18:14:00:01:33:ff",
+                "last_seen": 1595650257.2327383,
+                "name": "sengled E11-N1EA"
+            }
+        ]
+    },
+    "key": "zha.storage",
+    "version": 1
+}

@@ -1,0 +1,151 @@
+{
+    "data": {
+        "config": {
+            "custom_header": {},
+            "resources": [
+                {
+                    "type": "js",
+                    "url": "/community_plugin/travel-time-card/travel-time-card.js"
+                }
+            ],
+            "title": "StonesAnchor",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "weather.dark_sky",
+                            "name": "Sin City",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                "calendar.holidays_in_united_states",
+                                "calendar.my_calendar"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Calendar",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "default_view",
+                    "theme": "3ative_blue",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.laptop",
+                                    "type": "media-control"
+                                },
+                                {
+                                    "entity": "media_player.browser_mod_fa578a81_e4570210",
+                                    "type": "media-control"
+                                },
+                                {
+                                    "hold_action": {
+                                        "action": "none"
+                                    },
+                                    "image": "https://demo.home-assistant.io/stub_config/t-shirt-promo.png",
+                                    "tap_action": {
+                                        "action": "none"
+                                    },
+                                    "type": "picture"
+                                }
+                            ],
+                            "type": "horizontal-stack"
+                        },
+                        {
+                            "entity": "media_player.bar_tv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.alexa_genie",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.master_echo",
+                            "type": "media-control"
+                        },
+                        {
+                            "type": "custom:browser-player"
+                        },
+                        {
+                            "entity": "media_player.master_tv",
+                            "type": "media-control"
+                        }
+                    ],
+                    "icon": "mdi:movie",
+                    "path": "media",
+                    "title": "Media"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "columns": 3,
+                                    "entities": [
+                                        {
+                                            "entity": "light.sengled_e11_g13_3d483803_level_on_off"
+                                        },
+                                        {
+                                            "entity": "light.sengled_e11_g13_64fb3703_level_on_off"
+                                        },
+                                        {
+                                            "entity": "light.sengled_e11_g13_b2f33703_level_on_off"
+                                        },
+                                        {
+                                            "entity": "light.sengled_e11_n1ea_ff330100_level_light_color_on_off"
+                                        },
+                                        {
+                                            "entity": "switch.14357010cc50e32f5a87"
+                                        }
+                                    ],
+                                    "title": "Lights",
+                                    "type": "glance"
+                                },
+                                {
+                                    "columns": 2,
+                                    "entities": [
+                                        {
+                                            "entity": "switch.25048234840d8ebdd089"
+                                        },
+                                        {
+                                            "entity": "switch.25048234840d8ebddbfe"
+                                        },
+                                        {
+                                            "entity": "switch.25048234840d8ebe31c8"
+                                        },
+                                        {
+                                            "entity": "switch.lg_tv_power"
+                                        },
+                                        {
+                                            "entity": "switch.playstation_outlet"
+                                        }
+                                    ],
+                                    "show_state": false,
+                                    "title": "Outlets",
+                                    "type": "glance"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:lightbulb",
+                    "panel": true,
+                    "path": "lights",
+                    "theme": "dark_cyan",
+                    "title": "Lights"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_home",
+    "version": 1
+}

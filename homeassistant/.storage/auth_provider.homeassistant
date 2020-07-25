@@ -1,0 +1,32 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJEZRSUdTNS85WUZuaVFZcUJSMmM5VGVqSVJLLlAuZ09qcWxDdEVmLnQxSzhBMHpxNDRGLmNx",
+                "username": "christian"
+            },
+            {
+                "password": "JDJiJDEyJHRtU2FNeXkzdGZQZU1ldGxZVkNiTC4uZ1Ryemoza0xWcjYucUM2N2kwZ2tLL1NwV1RKQ2U2",
+                "username": "koyah"
+            },
+            {
+                "password": "JDJiJDEyJC5XTTAuY3BxUnBOckJXM2hucHI0LnVEaEw0MVFlSVp2cXlvS2FqSXNGYVRmVWtVWFFFZVo2",
+                "username": "kiyah"
+            },
+            {
+                "password": "JDJiJDEyJGwvOHQ3azIzRTJKTXVMUjNya3R3WWVzck9ZMjc1NU4ybkRNSXdJU3kzTVl5Z1dBODdrS2hx",
+                "username": "cks"
+            },
+            {
+                "password": "JDJiJDEyJFpPQnlZLzNyMkRHQlVOZWFCbHlFTWUwRjBIdElldlhuTUw4TDBpN0hKbjB1UlREaW43dnBX",
+                "username": "kayden"
+            },
+            {
+                "password": "JDJiJDEyJGRXZElDQzhKY3lRQUFzZEw5N1lYYnVHb1haYVZnNTgwelg5UDdPSnQ0Smh3alczQlcwZTdt",
+                "username": "mqtt"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

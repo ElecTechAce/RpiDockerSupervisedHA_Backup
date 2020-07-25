@@ -1,0 +1,101 @@
+###############################################################################
+#   @author         :   Christian Stone
+#   @date           :   07/16/2020
+#   @package        :   Tablet Sensors
+#   @description    :   PACKAGE DESCRIPTION
+#   @url            :   
+###############################################################################
+
+#################################
+##       Time/Date SENSORS      #
+#################################
+sensor:
+
+#Tablet Date
+  - platform: template
+    scan_interval: 30000
+    sensors:
+      tablet_date:
+        friendly_name: 'Tablet Date'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%A")}}, {{now().strftime("%B")}} {{now().strftime("%d")}}
+#Tablet Time
+  - platform: template
+    scan_interval: 60
+    sensors:
+      tablet_time:
+        friendly_name: 'Tablet Time'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%-I")}}:{{now().strftime("%M")}} {{now().strftime("%p")}}
+#Clock Time
+      clock_time:
+        friendly_name: 'Clock Time'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%-I")}}:{{now().strftime("%M")}}
+#Clock Sensors
+  - platform: template
+    scan_interval: 30000
+    sensors:
+#Clock AM/PM
+      clock_am_pm:
+        friendly_name: 'AM/PM'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%p")}}
+#Clock Day
+      clock_day:
+        friendly_name: 'Day'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%A")}}
+#Clock Date
+      clock_date:
+        friendly_name: 'Clock Date'
+        entity_id: []
+        value_template: >-
+          {{now().strftime("%B")}} {{now().strftime("%d")}} {{now().year}}
+#SENSOR WORLD CLOCK
+  - platform: worldclock
+    time_zone: Australia/Sydney
+    name: Syndey Time
+  - platform: worldclock
+    time_zone: Europe/London
+    name: Tea Time
+    
+#TIME OF DAY SENSOR
+  - platform: template
+    sensors:
+      time_of_day:
+        value_template: >
+          {% set current_hour = strptime(states('sensor.time'), "%H:%M").hour %}
+          {% if current_hour < 12 %}
+            Good Morning, Christian
+          {% elif 12 <= current_hour < 18 %}
+            Good Afternoon, Christian
+          {% elif 18 <= current_hour < 23 %}
+            Good Evening, Christian
+          {% else %}
+            Good Night, Christian
+          {% endif %}
+
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
+      - 'date_time'
+      - 'time_date'
+      - 'time_utc'
+      - 'beat' 
+
+
+
+#################################
+#          Group                #
+#################################
+# group:
+#   commands:
+#     entities:
+#       - shell_command.restart_ha

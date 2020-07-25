@@ -1,0 +1,62 @@
+{
+    "data": {
+        "archived": false,
+        "authors": [
+            "@pinkywafer"
+        ],
+        "category": "integration",
+        "config_flow": true,
+        "content_in_root": false,
+        "country": [],
+        "default_branch": "master",
+        "description": "Anniversary Countdown Sensor for Home Assistant",
+        "domain": "anniversaries",
+        "domains": [
+            "anniversaries",
+            "sensor"
+        ],
+        "downloads": 1565,
+        "file_name": "",
+        "filename": "anniversaries.zip",
+        "first_install": false,
+        "fork": false,
+        "full_name": "pinkywafer/Anniversaries",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": "0.109.0",
+        "id": "207881337",
+        "installed": true,
+        "installed_commit": "f52be26",
+        "installed_version": "3.0.2",
+        "iot_class": "Local Push",
+        "last_commit": "f52be26",
+        "last_updated": "2020-06-11T18:50:46Z",
+        "last_version": "3.0.2",
+        "manifest_name": "Anniversaries",
+        "new": false,
+        "open_issues": 6,
+        "persistent_directory": null,
+        "published_tags": [
+            "3.0.2",
+            "3.0.1",
+            "3.0.0",
+            "2.2.0",
+            "2.1.0"
+        ],
+        "pushed_at": "2020-06-11T18:50:46",
+        "releases": true,
+        "render_readme": false,
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 37,
+        "topics": [
+            "anniversaries",
+            "home-assistant",
+            "sensor"
+        ],
+        "zip_release": true
+    },
+    "key": "hacs/207881337.hacs",
+    "version": "6"
+}

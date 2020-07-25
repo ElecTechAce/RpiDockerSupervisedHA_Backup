@@ -1,0 +1,38 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.eta_s9"
+                ],
+                "id": "stonesanchor",
+                "name": "Christian",
+                "user_id": "228bdcc7a3db4e189995c4eebb06db66"
+            },
+            {
+                "device_trackers": [],
+                "id": "koyah",
+                "name": "Koyah",
+                "user_id": "c7cde7f479954c3a94a3ad4a033fd12a"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.kiayhs_tablet"
+                ],
+                "id": "kiyah",
+                "name": "Kiyah",
+                "user_id": "3bff63fc2df840a5b11bd720c0762778"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.stone_tablet"
+                ],
+                "id": "stone",
+                "name": "Stone",
+                "user_id": "b1bd1fbf5fe8447fbdc02b9ce2f4308f"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}

@@ -1,0 +1,63 @@
+{
+    "data": {
+        "archived": false,
+        "authors": [],
+        "category": "plugin",
+        "config_flow": false,
+        "content_in_root": false,
+        "country": [
+            "GB"
+        ],
+        "default_branch": "master",
+        "description": "Custom calendar card for Home Assistant with Lovelace",
+        "domain": "",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "atomic-calendar-revive.js",
+        "filename": "atomic-calendar-revive.js",
+        "first_install": false,
+        "fork": false,
+        "full_name": "marksie1988/atomic-calendar-revive",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "246549747",
+        "installed": true,
+        "installed_commit": "32b8556",
+        "installed_version": "v1.9.0",
+        "iot_class": null,
+        "last_commit": "32b8556",
+        "last_updated": "2020-07-24T07:24:51Z",
+        "last_version": "v1.9.0",
+        "manifest_name": null,
+        "new": false,
+        "open_issues": 14,
+        "persistent_directory": null,
+        "published_tags": [
+            "v1.9.0",
+            "v1.8.7",
+            "v1.8.5",
+            "v1.8.1",
+            "v1.7.0"
+        ],
+        "pushed_at": "2020-07-24T07:24:51",
+        "releases": true,
+        "render_readme": true,
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 20,
+        "topics": [
+            "calendar",
+            "card",
+            "hacs",
+            "homeassistant",
+            "javascript",
+            "lovelace",
+            "module"
+        ],
+        "zip_release": false
+    },
+    "key": "hacs/246549747.hacs",
+    "version": "6"
+}

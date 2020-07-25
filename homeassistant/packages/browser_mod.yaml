@@ -1,0 +1,16 @@
+###############################################################################
+#   @date           :   07/22/2020
+#   @package        :   browser_mod
+#   @description    :   This replaces lovelace-fullykiosk and lovelace card-mod
+#   @url            :   
+###############################################################################
+browser_mod:
+  prefix: "browser_mod_"
+  devices:
+    !secret ID_touchpanel:
+      name: touch_panel
+    !secret ID_laptop:
+      name: ETA_laptop
+      camera: true
+    !secret ID_hp:
+      name: hp_stream
